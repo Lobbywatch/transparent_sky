@@ -23,7 +23,7 @@
   ; and at least one more for our custom CSS.
 
   stylesheets[all][] = color/colors.css
-  stylesheets[all][] = css/foothemes.css
+  stylesheets[all][] = css/footheme.css
 
 
 ;----------// Regions
