@@ -33,12 +33,11 @@ function footheme_preprocess_html(&$vars) {
   *  'IE 8' => 'ie-8.css',
   *
   * Your IE CSS file must be in the /css/ directory in your subtheme.
-  *
-  * REMOVE or COMMENT OUT the following code if you dont want to load any IE stylesheets.
   */
+  /* -- Delete this line to add a conditional stylesheet for IE 7 or less.
   $ie_files = array(
     'lte IE 7' => 'ie-lte-7.css',
   );
-  load_subtheme_ie_styles($ie_files, 'footheme');
-
+  load_subtheme_ie_styles($ie_files, 'adaptivetheme_subtheme');
+  // */
 }
