@@ -2,9 +2,9 @@
 // Footheme by Adaptivethemes.com, a starter sub-sub-theme.
 
 /**
- * Rename each function and instance of "footheme" to match 
+ * Rename each function and instance of "footheme" to match
  * your subthemes name, e.g. if you name your theme "footheme" then the function
- * name will be "footheme_preprocess_hook". Tip - you can search/replace 
+ * name will be "footheme_preprocess_hook". Tip - you can search/replace
  * on "footheme".
  */
 
@@ -13,7 +13,7 @@
  */
 function footheme_preprocess_html(&$vars) {
   // Load the media queries styles
-  // Remember to rename these files to match the names used here - they are 
+  // Remember to rename these files to match the names used here - they are
   // in the CSS directory of your subtheme.
   $media_queries_css = array(
     'footheme.responsive.style.css',

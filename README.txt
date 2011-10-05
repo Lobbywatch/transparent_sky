@@ -11,7 +11,7 @@ sub-themes of Adaptivetheme 7.x-2.x.
 -- REQUIREMENTS --
 
 Corolla 7.x-2.x is a sub-theme of Adaptivetheme, you must download and install
-Adaptivetheme 7.x-2.x first. If you are planning on sub-theming Sky or Pixture Reloaded 
+Adaptivetheme 7.x-2.x first. If you are planning on sub-theming Sky or Pixture Reloaded
 you need to install those first, including the base theme:
 
 http://drupal.org/project/adaptivetheme

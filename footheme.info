@@ -196,5 +196,5 @@
 
   ; Menu bullets
   settings[menu_bullets] = 'mb-dd'
-  
+
 ;----------// Theme Settings END
