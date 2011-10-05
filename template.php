@@ -10,16 +10,18 @@
 
 /**
  * Override or insert variables into the html templates.
+ * Replace 'footheme' with your themes name, i.e. mytheme_preprocess_html()
  */
 function footheme_preprocess_html(&$vars) {
+
   // Load the media queries styles
-  // Remember to rename these files to match the names used here - they are
-  // in the CSS directory of your subtheme.
+  // If you change the names of these files they must match here - these files are
+  // in the /css/ directory of your subtheme - the names must be identical!
   $media_queries_css = array(
     'footheme.responsive.style.css',
     'footheme.responsive.gpanels.css'
   );
-  load_subtheme_media_queries($media_queries_css, 'footheme');
+  load_subtheme_media_queries($media_queries_css, 'footheme'); // Replace 'footheme' with your themes name
 
  /**
   * Load IE specific stylesheets
@@ -38,6 +40,7 @@ function footheme_preprocess_html(&$vars) {
   $ie_files = array(
     'lte IE 7' => 'ie-lte-7.css',
   );
-  load_subtheme_ie_styles($ie_files, 'adaptivetheme_subtheme');
+  load_subtheme_ie_styles($ie_files, 'footheme'); // Replace 'footheme' with your themes name
   // */
+
 }
