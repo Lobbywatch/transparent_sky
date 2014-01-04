@@ -8,11 +8,13 @@
  * as well.
  */
 /* Style menu in header, adapted from navigation.css */
+/* line 12, ../sass/transparent_sky.scss */
 .region-header .menu {
   clear: both;
   margin: 0;
 }
 
+/* line 17, ../sass/transparent_sky.scss */
 .region-header .menu li {
   display: inline;
   /*float: left;*/
