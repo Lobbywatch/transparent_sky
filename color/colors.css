@@ -1,282 +1,238 @@
-
-/* Background */
-body {
-  background-color: #f8f8f8;
-}
-body.corolla .color-form {
-  max-width: 100%;
+/* Page */
+html, body {
+  background-color: #efedea;
+  color: #000;
 }
 
-/* Text */
-body,
-#site-name a,
-h1.page-title,
-.node h2.node-title,
-.node h1.node-title a,
-.node h2.node-title a,
-.comment h3.comment-title a,
-.tabs ul.tabs li a,
-pre,
-code,
-samp,
-var,
-table.update tr,
-table.system-status-report tr {
-  color: #2e2e2e;
+ul.secondary,
+.section-collapsible,
+.region-highlighted,
+#columns {
+  background-color: #ffffff;
 }
-#site-name a::-moz-selection {
-  background-color: #2e2e2e;
+
+/* tasks */
+#skip-link a,
+ul.tabs li a,
+ul.tabs li a:visited {
+  background-color: #fffffe;
+  color: #101010;
 }
-#site-name a::selection {
-  background-color: #2e2e2e;
-}
-.node-title a::-moz-selection {
-  background-color: #2e2e2e;
-}
-.node-title a::selection {
-  background-color: #2e2e2e;
+ul.tabs li a:hover,
+ul.tabs li a:focus,
+ul.tabs li a:active,
+ul.tabs li a.active,
+ul.tabs li a.active:visited {
+  background-color: #efedeb;
+  color: #111111;
 }
 
 /* Links */
 a,
-a.active,
-li a.active {
-  color: #086782;
+a:visited {
+  color: #1c6ea0;
 }
-legend {
-  background-color: #086782;
+a:hover,
+a:focus,
+a:active {
+  color: #42a9be;
+}
+.pager a:hover,
+.pager a:active,
+.pager a:focus {
+  background-color: #1c6ea0;
   color: #fff;
 }
 
-/* Link hovered */
-a:hover,
-a:focus,
-a.active:hover,
-a.active:focus,
-li a.active:hover,
-li a.active:focus {
-  color: #e25401;
-  border-bottom-color: #e25401;
+/* Identity */
+h1#site-name a,
+h1#site-name a:visited {
+  color: #4c4742;
 }
-.node h1.node-title a:hover,
-.node h2.node-title a:hover {
-  color: #e25401;
+h2#site-slogan {
+  color: #837b72;
+}
+
+/* Header */
+.region-header,
+.nav .block-menu,
+.region-header h2.block-title,
+.nav .block-menu h2.block-title {
+  color: #101000;
+}
+.region-header a,
+.region-header a:visited {
+  color: #0679be;
+}
+.region-header a:hover,
+.region-header a:focus,
+.region-header a:active {
+  color: #42a9ba;
+}
+
+/* Footer */
+.breadcrumb,
+#page > footer,
+#page > footer .block-title {
+  background-color: #e3e1df;
+  color: #010101;
+}
+.breadcrumb a,
+#page > footer a,
+#page > footer a:visited {
+ color: #126598;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus,
+.breadcrumb a:active,
+#page > footer a:hover,
+#page > footer a:focus,
+#page > footer a:active {
+  color: #127ba5;
 }
 
 /* Menu bar */
-#menu-bar-wrapper {
-  background: #2e2e2d;
+.menu-toggle a {
+  color: #4d453e;
+  background-color: #ffffff;
 }
-.nav .block-menu ul li a,
-.nav .block-menu ul li a:visited {
-  color: #fcfcfc;
+#menu-bar-wrapper {
+  background: transparent;
+}
+.nav .block-menu ul li a {
+  color: #4d453e;
+  background-color: #e1dfdc;
 }
 .nav .block-menu ul a:focus,
 .nav .block-menu ul a:hover,
-.nav .block-menu ul a:active,
-.nav .block-menu ul a:visited {
-  background: #e25402;
+.nav .block-menu ul a:active {
+  background: #ffffff;
 }
 .nav .block-menu ul li a.active {
-  color: #2e2e2d;
-  background-color: #f8f8f8;
+  color: #4d453e;
+  background-color: #ffffff;
 }
 
 /* Superfish Skin - we keep the Superfish skin seperate so we can special case
    if we really need to */
 .sf-menu.sf-style-default a {
    border: 0;
-   color: #fcfcfc;
+   color: #4d453e;
+   background-color: #e1dfdc;
 }
 .sf-menu.sf-style-default li.last a {
 }
 .sf-menu.sf-style-default a,
 .sf-menu.sf-style-default a:visited {
-  color: #fcfcfc;
+  color: #4d453e;
 }
 .sf-menu.sf-style-default span.sf-description {
-  color: #ffffef;
+  color: #4d453e;
 }
 .sf-menu.sf-style-default li li,
 .sf-menu.sf-style-default.sf-navbar li ul {
   background-color: #2e2e2d;
-  opacity:0.925;
-  filter:alpha(opacity=92.5);
 }
 .sf-menu.sf-style-default li li li {
-  background-color: #2e2e2d;
+  background-color: #efedeb;
 }
 .sf-menu.sf-style-default li {
   background: transparent;
 }
 .sf-menu.sf-style-default.sf-navbar {
-  background: #2e2e2d;
+  background: #efedeb;
 }
 .sf-menu.sf-style-default li a,
 .sf-menu.sf-style-default li a:visited {
-  color: #fcfcfc;
+  color: #4d453e;
 }
 .sf-menu.sf-style-default li:hover,
 .sf-menu.sf-style-default li.sfHover,
 .sf-menu.sf-style-default a:focus,
 .sf-menu.sf-style-default a:hover,
 .sf-menu.sf-style-default a:active {
-  background-color: #e25402;
+  background-color: #ffffff;
+  color: #4d453e;
+}
+/* Reverse colors for sub menus */
+.sf-menu.sf-style-default li li:hover,
+.sf-menu.sf-style-default li li.sfHover,
+.sf-menu.sf-style-default li li a:focus,
+.sf-menu.sf-style-default li li a:hover,
+.sf-menu.sf-style-default li li a:active {
+  background-color: #4d453e;
+  color: #ffffff;
 }
 .sf-menu.sf-style-default .active-trail.sf-depth-1,
 .sf-menu.sf-style-default .sf-depth-1 > a.active {
-  color: #2e2e2d;
-  background-color: transparent;
+  color: #4d453e;
+  background-color: #ffffff;
 }
 #menu-bar-wrapper .sf-menu.sf-style-default .active-trail.sf-depth-1,
 #menu-bar-wrapper .sf-menu.sf-style-default .sf-depth-1 > a.active {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+}
+/* .sf-navbar */
+.sf-navbar.sf-style-default li ul {
+  background-color: transparent !important;
+  width: 100%;
+}
+.sf-navbar > li > ul > li {
+  border-bottom: 1px solid #473e34;
 }
 .sf-menu.sf-style-default.sf-navbar li ul li ul {
   background-color: transparent;
 }
 
-/* Region header menus */
-.region-header .block-menu li a,
-.region-header .sf-depth-1 > a {
-  border-bottom: 3px solid #c4c4c4;
-}
-.region-header .block-menu ul li a,
-.region-header .block-menu ul li a:visited {
-  color: #2e2e2d;
-}
-.region-header .block-menu li a:hover,
-.region-header .block-menu li a:focus,
-.region-header .block-menu li a:active {
-  color: #fcfcfc !important;
-  border-color: #2e2e2d !important;
-  background-color: #e25402;
+/* If you adjust your media queries for mobile you must replicate those changes here */
+@media only screen and (max-width:480px) {
+  .sf-menu.sf-style-default li li:hover,
+  .sf-menu.sf-style-default li li.sfHover,
+  .sf-menu.sf-style-default li li a,
+  .sf-menu.sf-style-default li li a:focus,
+  .sf-menu.sf-style-default li li a:hover,
+  .sf-menu.sf-style-default li li a:active,
+  .sf-menu.sf-style-default li li a:visited {
+    background-color: #4D453E;
+    color: #E1DFDC;
+  }
 }
 
-.region-header .sf-depth-1 > a:hover,
-.region-header .sf-depth-1 > a:focus {
-  border-color: #2e2e2d !important;
+/* top menu bar */
+.region-top-menu {
+  background-color: #ffffff;
+}
+.region-top-menu a {
+  color: #4d453e;
+}
+.region-top-menu .sf-menu.sf-style-default > li > a {
+  border: 0;
+  color: #4d453e;
+  background-color: transparent;
 }
 
-.region-header .sf-menu.sf-style-default .active-trail.sf-depth-1,
-.region-header .sf-menu.sf-style-default .sf-depth-1 > a.active {
-  color: #fcfcfc;
-  background-color: #e25402;
+/* Node links */
+article .links a,
+article .links a:visited {
+  background-color: #e7e5e3;
+  color: #100100;
 }
-.region-header .sf-menu.sf-style-default li li a,
-.region-header .sf-menu.sf-style-default li li a:visited {
-  color: #fcfcfc;
-  border: 0 !important;
-}
-
-
-/* Tabs */
-ul.primary li a,
-ul.primary li a:hover,
-ul.primary li a:focus {
-  border-color: #e1e1e1;
-}
-ul.primary li.active a {
-  border-color: #e1e1e1 #e1e1e1 #fff;
-}
-ul.primary li.active a:hover,
-ul.primary li.active a:focus {
-  background: #fff;
+article .links a:hover,
+article .links a:focus,
+article .links a:active {
+  background-color: #d7d5d3;
+  color: #100101;
 }
 
-/* Form inputs */
-input.form-select,
-input.form-text,
-input.form-submit {
-  border: 1px solid #c4c4c4;
+/* Titles */
+h1 {
+  color: #100001;
 }
-.form-text:focus,
-.form-checkbox:focus,
-.form-radio:focus,
-.form-select:focus {
-  background: #fff;
-}
-textarea:focus {
-  background: #fff;
-}
-#autocomplete ul {
-  background: #fff;
-  color: #2e2e2e;
-}
-#autocomplete ul div:hover {
-  background: #2e2e2e;
-  color: #fff;
-}
-/* Slogan */
-#site-slogan {
-  color: #e25400;
-}
-#site-slogan::selection {
-  background-color:  #e25400;
-}
-#site-slogan::-moz-selection {
-  background-color:  #e25400;
-}
-
-/* Poll */
-.poll .bar .foreground {
-  background-color: #e25400 !important;
-}
-.block-poll .poll .percent {
-  color: #fff;
-}
-
-/* Border (gray) */
-.content-style {
-  border: 1px solid #e1e1e1;
-}
-
-/* Region block borders (uncomment to enable).
-   The rounded corners are already accounted for in corolla.settings.style.css */
-/*
-.sidebar .block-inner,
-.region-highlighted .block-inner,
-.four-4x25 .block-inner,
-.three-3x33 .block-inner {
-  border: 1px solid #e1e1e1;
-  padding: 10px;
-}
-*/
-
-/* Border strong (dark gray) */
-#sidebar-first input,
-#sidebar-second input {
-  border: 1px solid #c4c4c4;
-}
-.tabs ul.tabs li a {
-  border: 1px solid #c4c4c4;
-}
-
-
-/* Verticle tabs */
-ul.vertical-tabs-list li a {
-  background-color: #f5f4f3;
-}
-
-/* Block title */
-.block h2,
 h2 {
-  color: #779125;
+  color: #5e5247; /* need to update */
 }
-.block h2::selection {
-  color: #fff;
-  background-color: #779125;
-}
-.block h2::-moz-selection {
-  background-color: #779125;
-  color: #fff;
-}
-
-/* Fieldset */
-fieldset {
-  background-color: #fbfbfb;
-}
-/* Fieldset border */
-fieldset {
-  border: 1px solid #e1e1e2;
+.comment header h3 a,
+h1 a,
+h1.node-title a {
+  color: #100011;
 }
