@@ -185,34 +185,35 @@
    *
    * Inspiration from: http://engineeredweb.com/blog/switching-from-pygments-to-prettify/
    */
-  Drupal.behaviors.activate_prettify= {
-      attach: function (context, settings) {
-          // Add pretty print to all pre and code tags.
-          $('.prettyprint > .codeblock > code' /* +', .prettyprint > .codeblock > pre'*/).once('prettyprint', function() {
-              // Copy classes of parent parent class, incl prettyprint
-              // Parent: div.codeblock form Drupal codefilter module
-              // Parent parent: div.prettyprint which can contain the language spec
-              $(this).addClass($(this).parent().parent().attr('class'));
-
-              // Workaround codefilter problem with nested code tags
-              // Assume the end tag is escaped with &lt;code>
-              $(this).html($(this).html().replace(/&amp;lt;\/code&gt;/, '&lt;/code&gt;'));
-          });
-
-          $('.prettycode').once('prettycode', function() {
-              // Copy classes of parent parent class, incl prettyprint
-              // Parent: div.codeblock form Drupal codefilter module
-              // Parent parent: div.prettyprint which can contain the language spec
-              $(this).addClass('prettyprint');
-          });
-
-          // Remove prettify from code tags inside pre tags.
-          $('.prettyprint > pre > code').removeClass("prettyprint");
-
-          // Activate pretty presentation.
-          prettyPrint();
-      }
-  };
+// TODO enable pretty print again
+//   Drupal.behaviors.activate_prettify= {
+//       attach: function (context, settings) {
+//           // Add pretty print to all pre and code tags.
+//           $('.prettyprint > .codeblock > code' /* +', .prettyprint > .codeblock > pre'*/).once('prettyprint', function() {
+//               // Copy classes of parent parent class, incl prettyprint
+//               // Parent: div.codeblock form Drupal codefilter module
+//               // Parent parent: div.prettyprint which can contain the language spec
+//               $(this).addClass($(this).parent().parent().attr('class'));
+//
+//               // Workaround codefilter problem with nested code tags
+//               // Assume the end tag is escaped with &lt;code>
+//               $(this).html($(this).html().replace(/&amp;lt;\/code&gt;/, '&lt;/code&gt;'));
+//           });
+//
+//           $('.prettycode').once('prettycode', function() {
+//               // Copy classes of parent parent class, incl prettyprint
+//               // Parent: div.codeblock form Drupal codefilter module
+//               // Parent parent: div.prettyprint which can contain the language spec
+//               $(this).addClass('prettyprint');
+//           });
+//
+//           // Remove prettify from code tags inside pre tags.
+//           $('.prettyprint > pre > code').removeClass("prettyprint");
+//
+//           // Activate pretty presentation.
+//           prettyPrint();
+//       }
+//   };
 
 
 })(jQuery);
