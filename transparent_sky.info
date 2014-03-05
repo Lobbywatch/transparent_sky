@@ -49,6 +49,10 @@
   ; syntax is scripts[] = path/to/file, e.g.
   ; scripts[] = scripts/myscript.js
 
+  scripts[]   = js/jquery.tablesorter.min.js
+  scripts[]   = ../../../../misc/tableheader.js
+  scripts[]   = js/transparent_sky.js
+
   ; Internet Explorer Scripts
   ;
   ; AT can load scripts in conditional comments from the info file.
