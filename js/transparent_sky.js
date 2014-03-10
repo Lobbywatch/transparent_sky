@@ -215,8 +215,22 @@
 //       }
 //   };
 
+//   alert('Passed transperent_sky');
 
-})(jQuery);
+// Autocomplete autosubmit, Ref: https://drupal.org/node/1772490
+  $(document).ready(function(){
+//     alert('Installed Drupal.jsAC.prototype.select');
+    // Adapted from Drupal autocomplete.js
+    Drupal.jsAC.prototype.select = function (node) {
+//       alert('Passed Drupal.jsAC.prototype.select');
+      this.input.value = $(node).data('autocompleteValue');
+      if(jQuery(this.input).hasClass('auto_submit')){
+        this.input.form.submit();
+      }
+    };
+  });
+
+  })(jQuery);
 
 
 /** Ref: http://stackoverflow.com/questions/1219860/javascript-jquery-html-encoding */
