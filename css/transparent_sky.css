@@ -238,3 +238,12 @@ table.table-small,
 .double-bottom {
   border-bottom: 1px double;
 }
+
+/** Image caption from image_caption_filter */
+.caption {
+  font-size: 88%;
+}
+
+.responsive {
+  max-width: 100%;
+}
