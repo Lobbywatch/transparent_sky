@@ -247,3 +247,17 @@ table.table-small,
 .responsive {
   max-width: 100%;
 }
+
+/*
+ * Node
+ */
+.front article.node {
+  border-top: dotted 0.2em;
+  padding-top: 0.7em;
+  border-bottom: dotted 0.2em;
+  padding-bottom: 0.7em;
+  /*padding-top: 10px;*/
+  /*border-bottom: 0px; Disabled in colors.css due coloring order. */
+  /*padding-bottom: 35px;*/
+  /*margin-bottom: 25px;*/
+}
