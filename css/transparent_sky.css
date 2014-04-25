@@ -261,3 +261,53 @@ table.table-small,
   /*padding-bottom: 35px;*/
   /*margin-bottom: 25px;*/
 }
+
+.meta .field-name-field-kategorie,
+.view-unpublished-articles .views-field-field-kategorie,
+.view-article-overview .views-field-field-kategorie,
+.view-last-mod-articles .views-field-field-kategorie,
+.view-article-archive .views-field-field-kategorie {
+  background-image: url("../images/category.png");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+ul.category-list li,
+ul.category-lobby-group-list li {
+  list-style-image: url("../images/category.png");
+  margin-left: 12px;
+}
+
+.meta .field-name-field-keywords,
+.view-unpublished-articles .views-field-field-keywords,
+.view-article-overview .views-field-field-keywords,
+.view-last-mod-articles .views-field-field-keywords,
+.view-article-archive .views-field-field-keywords {
+  background-image: url("../images/tag-label-yellow.png");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+.view-keywords div.item-list ul li {
+  list-style-image: url("../images/tag-label-yellow.png");
+}
+
+.meta .field-name-field-tags,
+.view-unpublished-articles .views-field-field-tags,
+.view-article-overview .views-field-field-tags,
+.view-last-mod-articles .views-field-field-tags,
+.view-article-archive .views-field-field-tags {
+  background-image: url("../images/tag-label-black.png");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+
+.meta .field-name-field-destination-feeds,
+.view-unpublished-articles .views-field-field-destination-feeds,
+.view-article-overview .views-field-field-destination-feeds,
+.view-last-mod-articles .views-field-field-destination-feeds,
+.view-article-archive .views-field-field-destination-feeds {
+  background-image: url("../images/feed--arrow.png");
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
