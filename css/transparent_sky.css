@@ -411,8 +411,8 @@ ul.category-lobby-group-list li {
 /* line 368, ../sass/transparent_sky.scss */
 .sidebar {
   border-top-left-radius: 6px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
 }
 
