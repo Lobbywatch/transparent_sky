@@ -1,0 +1,8 @@
+
+.floating-fixed,
+.floating-block-active {
+  z-index: 5;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #C0D9EC;
+}

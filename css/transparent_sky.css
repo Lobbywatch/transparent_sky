@@ -7,6 +7,7 @@
  * remember to update the name in the info file
  * as well.
  */
+
 /* Style menu in header, adapted from navigation.css */
 /* line 12, ../sass/transparent_sky.scss */
 .region-header .menu {
@@ -383,4 +384,28 @@ ul.category-lobby-group-list li {
   margin-top: 1.25em;
   /*border-top: solid 0.3em black;*/
   padding-top: 0.7em;
+}
+
+.content a.feed-icon,
+.content a.feed-icon img,
+.content a.twitter-icon img,
+.content a.fb-icon img,
+.content a.gplus-icon img {
+  vertical-align: text-bottom;
+  padding: 0;
+}
+
+.content a.e-mail-icon img {
+  vertical-align: text-bottom;
+  position: relative;
+  bottom: -3px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Navigation font. */
+.technical-font {
+font-family: Arial,Helvetica,sans-serif;
 }
