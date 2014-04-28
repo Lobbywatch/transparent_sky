@@ -448,12 +448,19 @@ ul.category-lobby-group-list li {
 }
 
 /* line 402, ../sass/transparent_sky.scss */
+.content a.e-mail-icon img {
+  vertical-align: text-bottom;
+  position: relative;
+  bottom: -1px;
+}
+
+/* line 408, ../sass/transparent_sky.scss */
 .bold {
   font-weight: 700;
 }
 
 /* Navigation font. */
-/* line 407, ../sass/transparent_sky.scss */
+/* line 413, ../sass/transparent_sky.scss */
 .technical-font {
   font-family: Arial,Helvetica,sans-serif;
 }
