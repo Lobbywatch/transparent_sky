@@ -424,13 +424,18 @@ ul.category-lobby-group-list li {
 }
 
 /* line 381, ../sass/transparent_sky.scss */
+.sidebar .block:first-child {
+  border-top: none;
+}
+
+/* line 385, ../sass/transparent_sky.scss */
 .sidebar #block-system-navigation {
   margin-top: 1.25em;
   /*border-top: solid 0.3em black;*/
   padding-top: 0.7em;
 }
 
-/* line 391, ../sass/transparent_sky.scss */
+/* line 395, ../sass/transparent_sky.scss */
 .content a.feed-icon,
 .content a.feed-icon img,
 .content a.twitter-icon img,
@@ -440,27 +445,27 @@ ul.category-lobby-group-list li {
   padding: 0;
 }
 
-/* line 396, ../sass/transparent_sky.scss */
+/* line 400, ../sass/transparent_sky.scss */
 .content a.e-mail-icon img {
   vertical-align: text-bottom;
   position: relative;
   bottom: -3px;
 }
 
-/* line 402, ../sass/transparent_sky.scss */
+/* line 406, ../sass/transparent_sky.scss */
 .content a.e-mail-icon img {
   vertical-align: text-bottom;
   position: relative;
   bottom: -1px;
 }
 
-/* line 408, ../sass/transparent_sky.scss */
+/* line 412, ../sass/transparent_sky.scss */
 .bold {
   font-weight: 700;
 }
 
 /* Navigation font. */
-/* line 413, ../sass/transparent_sky.scss */
+/* line 417, ../sass/transparent_sky.scss */
 .technical-font {
   font-family: Arial,Helvetica,sans-serif;
 }

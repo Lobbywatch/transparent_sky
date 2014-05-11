@@ -378,6 +378,10 @@ ul.category-lobby-group-list li {
   padding-top: 0.7em;
 }
 
+.sidebar .block:first-child {
+  border-top: none;
+}
+
 .sidebar #block-system-navigation {
   margin-top: 1.25em;
   /*border-top: solid 0.3em black;*/
