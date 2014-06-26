@@ -471,3 +471,12 @@ ul.category-lobby-group-list li {
 .technical-font {
   font-family: Arial,Helvetica,sans-serif;
 }
+
+/* line 423, ../sass/transparent_sky.scss */
+.node-content .field-type-taxonomy-term-reference ul li {
+  margin-right: 0.7em;
+}
+/* line 427, ../sass/transparent_sky.scss */
+.node-content .field-type-taxonomy-term-reference ul li:last-of-type {
+  margin-right: 0;
+}

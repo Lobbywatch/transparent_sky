@@ -419,3 +419,12 @@ ul.category-lobby-group-list li {
 .technical-font {
   font-family: Arial,Helvetica,sans-serif;
 }
+
+.node-content .field-type-taxonomy-term-reference ul li {
+
+  margin-right: 0.7em;
+
+  &:last-of-type {
+	margin-right: 0;
+  }
+}
