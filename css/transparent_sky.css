@@ -580,6 +580,7 @@ ul.category-lobby-group-list li {
   text-indent: 5px;
   width: 100%;
   min-width: 130px;
+  border-radius: 4px;
 }
 
 /* line 447, ../sass/transparent_sky.scss */
