@@ -688,3 +688,13 @@ ul.category-lobby-group-list li {
   display: inline-block;
   width: 33%;
 }
+
+/* line 481, ../sass/transparent_sky.scss */
+.quicktabs_main.quicktabs-style-sky {
+  border-radius: 4px;
+}
+
+/* line 485, ../sass/transparent_sky.scss */
+#quicktabs-suche_tabs .quicktabs-style-sky li > a {
+  border-radius: 6px 6px 0px 0px;
+}
