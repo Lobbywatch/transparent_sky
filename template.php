@@ -10,6 +10,19 @@
  * on "footheme".
  */
 
+/**
+ * Fills the submitted variable (follows #364470).
+ */
+function transparent_sky_preprocess_page(&$variables) {
+  // Add a word counter for the role blogger
+  global $user;
+  if (in_array('blogger', $user->roles) || $variables['is_admin']) {
+    $variables['is_blogger'] = TRUE;
+    drupal_add_js(path_to_theme() . '/js/transparent_sky-mgmt.js');
+  } else {
+    $variables['is_blogger'] = FALSE;
+  }
+}
 
 /**
  * Override or insert variables for the html template.
