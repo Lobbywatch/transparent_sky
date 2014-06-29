@@ -671,3 +671,8 @@ ul.category-lobby-group-list li {
 :hover > .on-hover {
   display: inline;
 }
+
+/* line 467, ../sass/transparent_sky.scss */
+.rc-6 #columns {
+  border-radius: 6px;
+}
