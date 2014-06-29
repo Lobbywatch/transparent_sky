@@ -661,3 +661,13 @@ ul.category-lobby-group-list li {
 .simple-button:hover {
   background-color: #777;
 }
+
+/* line 459, ../sass/transparent_sky.scss */
+.on-hover {
+  display: none;
+}
+
+/* line 463, ../sass/transparent_sky.scss */
+:hover > .on-hover {
+  display: inline;
+}

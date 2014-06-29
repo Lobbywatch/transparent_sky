@@ -1,5 +1,5 @@
 /**
- * Patientensicht theme Javascript goes here.
+ * Transparent Sky theme Javascript goes here.
  */
 
 
