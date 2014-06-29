@@ -569,7 +569,7 @@ ul.category-lobby-group-list li {
   display: block;
   font-size: 95%;
   padding-bottom: 10px;
-  font-weight: bold;
+  /*font-weight:bold;*/
 }
 
 /* line 446, ../sass/transparent_sky.scss */
@@ -675,4 +675,16 @@ ul.category-lobby-group-list li {
 /* line 467, ../sass/transparent_sky.scss */
 .rc-6 #columns {
   border-radius: 6px;
+}
+
+/* line 471, ../sass/transparent_sky.scss */
+#footer-sitemap ul li {
+  float: none;
+}
+
+/* line 475, ../sass/transparent_sky.scss */
+#footer-sitemap .fs-block-content > div {
+  vertical-align: top;
+  display: inline-block;
+  width: 12em;
 }

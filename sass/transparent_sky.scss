@@ -442,7 +442,7 @@ ul.category-lobby-group-list li {
 #mc_embed_signup .nowrap {white-space:nowrap;}
 #mc_embed_signup .clear {clear:none; display:inline;}
 
-#mc_embed_signup label {display:block; font-size:95%; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup label {display:block; font-size:95%; padding-bottom:10px; /*font-weight:bold;*/}
 #mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 0px 0; text-indent:5px; width:100%; min-width:130px; border-radius: 4px;}
 #mc_embed_signup input.button {display:block; /*width:35%;*/ margin:0 0 0px 0; min-width:3em;}
 
@@ -466,4 +466,14 @@ ul.category-lobby-group-list li {
 
 .rc-6 #columns {
   border-radius: 6px;
+}
+
+#footer-sitemap ul li {
+  float: none;
+}
+
+#footer-sitemap .fs-block-content > div {
+  vertical-align: top;
+  display: inline-block;
+  width: 12em;
 }
