@@ -725,4 +725,9 @@ ul.category-lobby-group-list li {
     top: 0 !important;
     left: 0 !important;
   }
+
+  /* line 516, ../sass/transparent_sky.scss */
+  #branding {
+    width: 100%;
+  }
 }
