@@ -798,7 +798,6 @@ article.node-teaser .node-content ul {
 
 /* line 579, ../sass/transparent_sky.scss */
 .region-three-33-first .block-inner {
-  margin-left: 0;
   margin-right: 10px;
 }
 
@@ -808,7 +807,7 @@ article.node-teaser .node-content ul {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 593, ../sass/transparent_sky.scss */
+  /* line 592, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -821,7 +820,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 606, ../sass/transparent_sky.scss */
+  /* line 605, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -829,7 +828,7 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 612, ../sass/transparent_sky.scss */
+  /* line 611, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
