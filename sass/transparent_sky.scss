@@ -556,6 +556,21 @@ article.node-teaser .comment-add {
   display: none;
 }
 
+/* Style teaser image. */
+.field-name-field-image.field-type-image.view-mode-teaser figure.field-item {
+  float: left;
+
+  img {
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+  }
+
+}
+
+article.node-teaser .node-content ul {
+  list-style-position: inside;
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
