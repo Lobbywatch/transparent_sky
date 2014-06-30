@@ -501,6 +501,15 @@ article .submitted {
 
 }
 
+.node .node-content .field-type-taxonomy-term-reference a {
+  color: #888;
+
+  &:hover, &:focus, &:active {
+    color: #1473D7;
+  }
+
+}
+
 #block-system-main-menu {
     font-weight: 700;
 }

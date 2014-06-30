@@ -715,6 +715,15 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
 }
 
 /* line 504, ../sass/transparent_sky.scss */
+.node .node-content .field-type-taxonomy-term-reference a {
+  color: #888;
+}
+/* line 507, ../sass/transparent_sky.scss */
+.node .node-content .field-type-taxonomy-term-reference a:hover, .node .node-content .field-type-taxonomy-term-reference a:focus, .node .node-content .field-type-taxonomy-term-reference a:active {
+  color: #1473D7;
+}
+
+/* line 513, ../sass/transparent_sky.scss */
 #block-system-main-menu {
   font-weight: 700;
 }
@@ -725,7 +734,7 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 516, ../sass/transparent_sky.scss */
+  /* line 525, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -738,7 +747,7 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 529, ../sass/transparent_sky.scss */
+  /* line 538, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -746,7 +755,7 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
     left: 0 !important;
   }
 
-  /* line 535, ../sass/transparent_sky.scss */
+  /* line 544, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
