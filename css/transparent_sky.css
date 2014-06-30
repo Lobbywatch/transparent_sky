@@ -423,22 +423,30 @@ ul.category-lobby-group-list li {
   border-top: dotted 0.2em black;
   padding-top: 0.7em;
 }
+/* line 380, ../sass/transparent_sky.scss */
+.sidebar .block h2 {
+  text-transform: uppercase;
+}
+/* line 384, ../sass/transparent_sky.scss */
+.sidebar .block ul.menu {
+  margin: 0;
+}
 
-/* line 381, ../sass/transparent_sky.scss */
+/* line 390, ../sass/transparent_sky.scss */
 .sidebar .block:first-child {
   margin-top: 0em;
   border-top: none;
   padding-top: 0em;
 }
 
-/* line 387, ../sass/transparent_sky.scss */
+/* line 396, ../sass/transparent_sky.scss */
 .sidebar #block-system-navigation {
   margin-top: 1.25em;
   /*border-top: solid 0.3em black;*/
   padding-top: 0.7em;
 }
 
-/* line 397, ../sass/transparent_sky.scss */
+/* line 408, ../sass/transparent_sky.scss */
 .content a.feed-icon,
 .content a.feed-icon img,
 .content a.twitter-icon img,
@@ -448,42 +456,33 @@ ul.category-lobby-group-list li {
   padding: 0;
 }
 
-/* line 402, ../sass/transparent_sky.scss */
+/* line 413, ../sass/transparent_sky.scss */
 .content a.e-mail-icon img {
   vertical-align: text-bottom;
   position: relative;
   bottom: -3px;
 }
 
-/* line 408, ../sass/transparent_sky.scss */
+/* line 419, ../sass/transparent_sky.scss */
 .content a.e-mail-icon img {
   vertical-align: text-bottom;
   position: relative;
   bottom: -1px;
 }
 
-/* line 414, ../sass/transparent_sky.scss */
+/* line 425, ../sass/transparent_sky.scss */
 .bold {
   font-weight: 700;
 }
 
 /* Navigation font. */
-/* line 419, ../sass/transparent_sky.scss */
+/* line 430, ../sass/transparent_sky.scss */
 .technical-font {
   font-family: Arial,Helvetica,sans-serif;
 }
 
-/* line 423, ../sass/transparent_sky.scss */
-.node-content .field-type-taxonomy-term-reference ul li {
-  margin-right: 0.7em;
-}
-/* line 427, ../sass/transparent_sky.scss */
-.node-content .field-type-taxonomy-term-reference ul li:last-of-type {
-  margin-right: 0;
-}
-
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
-/* line 433, ../sass/transparent_sky.scss */
+/* line 435, ../sass/transparent_sky.scss */
 #mc_embed_signup form {
   display: block;
   position: relative;
@@ -492,7 +491,7 @@ ul.category-lobby-group-list li {
   font-family: Arial,Helvetica,sans-serif;
 }
 
-/* line 434, ../sass/transparent_sky.scss */
+/* line 436, ../sass/transparent_sky.scss */
 #mc_embed_signup h2 {
   font-weight: bold;
   padding: 0;
@@ -500,28 +499,28 @@ ul.category-lobby-group-list li {
   font-size: 1.4em;
 }
 
-/* line 435, ../sass/transparent_sky.scss */
+/* line 437, ../sass/transparent_sky.scss */
 #mc_embed_signup input {
   border: 1px solid #999;
   -webkit-appearance: none;
 }
 
-/* line 436, ../sass/transparent_sky.scss */
+/* line 438, ../sass/transparent_sky.scss */
 #mc_embed_signup input[type=checkbox] {
   -webkit-appearance: checkbox;
 }
 
-/* line 437, ../sass/transparent_sky.scss */
+/* line 439, ../sass/transparent_sky.scss */
 #mc_embed_signup input[type=radio] {
   -webkit-appearance: radio;
 }
 
-/* line 438, ../sass/transparent_sky.scss */
+/* line 440, ../sass/transparent_sky.scss */
 #mc_embed_signup input:focus {
   border-color: #333;
 }
 
-/* line 439, ../sass/transparent_sky.scss */
+/* line 441, ../sass/transparent_sky.scss */
 #mc_embed_signup .button {
   clear: both;
   background-color: #aaa;
@@ -544,28 +543,28 @@ ul.category-lobby-group-list li {
   float: right;
 }
 
-/* line 440, ../sass/transparent_sky.scss */
+/* line 442, ../sass/transparent_sky.scss */
 #mc_embed_signup .button:hover {
   background-color: #777;
 }
 
-/* line 441, ../sass/transparent_sky.scss */
+/* line 443, ../sass/transparent_sky.scss */
 #mc_embed_signup .small-meta {
   font-size: 11px;
 }
 
-/* line 442, ../sass/transparent_sky.scss */
+/* line 444, ../sass/transparent_sky.scss */
 #mc_embed_signup .nowrap {
   white-space: nowrap;
 }
 
-/* line 443, ../sass/transparent_sky.scss */
+/* line 445, ../sass/transparent_sky.scss */
 #mc_embed_signup .clear {
   clear: none;
   display: inline;
 }
 
-/* line 445, ../sass/transparent_sky.scss */
+/* line 447, ../sass/transparent_sky.scss */
 #mc_embed_signup label {
   display: block;
   font-size: 95%;
@@ -573,7 +572,7 @@ ul.category-lobby-group-list li {
   /*font-weight:bold;*/
 }
 
-/* line 446, ../sass/transparent_sky.scss */
+/* line 448, ../sass/transparent_sky.scss */
 #mc_embed_signup input.email {
   display: block;
   padding: 8px 0;
@@ -584,7 +583,7 @@ ul.category-lobby-group-list li {
   border-radius: 4px;
 }
 
-/* line 447, ../sass/transparent_sky.scss */
+/* line 449, ../sass/transparent_sky.scss */
 #mc_embed_signup input.button {
   display: block;
   /*width:35%;*/
@@ -592,7 +591,7 @@ ul.category-lobby-group-list li {
   min-width: 3em;
 }
 
-/* line 449, ../sass/transparent_sky.scss */
+/* line 451, ../sass/transparent_sky.scss */
 #mc_embed_signup div#mce-responses {
   float: left;
   top: -1.4em;
@@ -603,7 +602,7 @@ ul.category-lobby-group-list li {
   clear: both;
 }
 
-/* line 450, ../sass/transparent_sky.scss */
+/* line 452, ../sass/transparent_sky.scss */
 #mc_embed_signup div.response {
   margin: 1em 0;
   padding: 1em .5em .5em 0;
@@ -614,18 +613,18 @@ ul.category-lobby-group-list li {
   width: 80%;
 }
 
-/* line 451, ../sass/transparent_sky.scss */
+/* line 453, ../sass/transparent_sky.scss */
 #mc_embed_signup #mce-error-response {
   display: none;
 }
 
-/* line 452, ../sass/transparent_sky.scss */
+/* line 454, ../sass/transparent_sky.scss */
 #mc_embed_signup #mce-success-response {
   color: #529214;
   display: none;
 }
 
-/* line 453, ../sass/transparent_sky.scss */
+/* line 455, ../sass/transparent_sky.scss */
 #mc_embed_signup label.error {
   display: block;
   float: none;
@@ -636,7 +635,7 @@ ul.category-lobby-group-list li {
 }
 
 /** Lobbyscout button */
-/* line 456, ../sass/transparent_sky.scss */
+/* line 458, ../sass/transparent_sky.scss */
 .simple-button {
   clear: both;
   background-color: #aaa;
@@ -658,91 +657,100 @@ ul.category-lobby-group-list li {
   width: auto;
 }
 
-/* line 457, ../sass/transparent_sky.scss */
+/* line 459, ../sass/transparent_sky.scss */
 .simple-button:hover {
   background-color: #777;
 }
 
-/* line 459, ../sass/transparent_sky.scss */
+/* line 461, ../sass/transparent_sky.scss */
 .on-hover {
   display: none;
 }
 
-/* line 463, ../sass/transparent_sky.scss */
+/* line 465, ../sass/transparent_sky.scss */
 :hover > .on-hover {
   display: inline;
 }
 
-/* line 468, ../sass/transparent_sky.scss */
+/* line 470, ../sass/transparent_sky.scss */
 .rc-6 #columns,
 .rc-6 #page > footer {
   border-radius: 6px;
 }
 
-/* line 472, ../sass/transparent_sky.scss */
+/* line 474, ../sass/transparent_sky.scss */
 #footer-sitemap ul li {
   float: none;
 }
 
-/* line 476, ../sass/transparent_sky.scss */
+/* line 478, ../sass/transparent_sky.scss */
 #footer-sitemap .fs-block-content > div {
   vertical-align: top;
   display: inline-block;
   width: 30%;
 }
 
-/* line 482, ../sass/transparent_sky.scss */
+/* line 484, ../sass/transparent_sky.scss */
 .quicktabs_main.quicktabs-style-sky {
   border-radius: 6px;
   background-color: #4975a3;
 }
-/* line 486, ../sass/transparent_sky.scss */
+/* line 488, ../sass/transparent_sky.scss */
 .quicktabs_main.quicktabs-style-sky label {
   color: white;
 }
 
-/* line 491, ../sass/transparent_sky.scss */
+/* line 493, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
 
-/* line 495, ../sass/transparent_sky.scss */
+/* line 497, ../sass/transparent_sky.scss */
 article .submitted {
   color: #888;
 }
-/* line 498, ../sass/transparent_sky.scss */
+/* line 500, ../sass/transparent_sky.scss */
 article .submitted a, article .submitted a:visited, article .submitted a:link, article .submitted a:hover {
   color: #888;
 }
 
-/* line 504, ../sass/transparent_sky.scss */
+/* line 506, ../sass/transparent_sky.scss */
+.node-content .field-type-taxonomy-term-reference ul li {
+  margin-right: 0.7em;
+}
+/* line 510, ../sass/transparent_sky.scss */
+.node-content .field-type-taxonomy-term-reference ul li:last-of-type {
+  margin-right: 0;
+}
+
+/* line 515, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a {
   color: #888;
 }
-/* line 507, ../sass/transparent_sky.scss */
+/* line 518, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a:hover, .node .node-content .field-type-taxonomy-term-reference a:focus, .node .node-content .field-type-taxonomy-term-reference a:active {
   color: #1473D7;
 }
 
-/* line 513, ../sass/transparent_sky.scss */
+/* line 524, ../sass/transparent_sky.scss */
 #block-system-main-menu {
   font-weight: 700;
 }
 
-/* line 517, ../sass/transparent_sky.scss */
+/* line 528, ../sass/transparent_sky.scss */
 article .tags, .node-content .field-type-taxonomy-term-reference {
   font-style: normal;
   font-size: 0.923em;
 }
 
-/* line 523, ../sass/transparent_sky.scss */
+/* line 534, ../sass/transparent_sky.scss */
 article .links a,
 article .links a:visited {
   background-color: transparent;
   font-weight: 700;
 }
 
-/* line 530, ../sass/transparent_sky.scss */
+/* line 541, ../sass/transparent_sky.scss */
 article .links a:hover,
 article .links a:focus,
 article .links a:active {
@@ -750,18 +758,18 @@ article .links a:active {
   color: #1473D7;
 }
 
-/* line 535, ../sass/transparent_sky.scss */
+/* line 546, ../sass/transparent_sky.scss */
 article .read-more:before {
   content: "▶ ";
 }
 
-/* line 539, ../sass/transparent_sky.scss */
+/* line 550, ../sass/transparent_sky.scss */
 .node ul.links li a.read-more {
   font-size: 100%;
   padding: 0;
 }
 
-/* line 544, ../sass/transparent_sky.scss */
+/* line 555, ../sass/transparent_sky.scss */
 article.node-teaser .comment-add {
   display: none;
 }
@@ -772,7 +780,7 @@ article.node-teaser .comment-add {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 556, ../sass/transparent_sky.scss */
+  /* line 567, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -785,7 +793,7 @@ article.node-teaser .comment-add {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 569, ../sass/transparent_sky.scss */
+  /* line 580, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -793,7 +801,7 @@ article.node-teaser .comment-add {
     left: 0 !important;
   }
 
-  /* line 575, ../sass/transparent_sky.scss */
+  /* line 586, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }

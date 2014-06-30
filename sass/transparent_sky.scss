@@ -376,6 +376,15 @@ ul.category-lobby-group-list li {
   margin-top: 1em;
   border-top: dotted 0.2em black;
   padding-top: 0.7em;
+
+  h2 {
+	text-transform:uppercase;
+  }
+
+  ul.menu {
+	margin: 0;
+  }
+
 }
 
 .sidebar .block:first-child {
@@ -388,7 +397,9 @@ ul.category-lobby-group-list li {
   margin-top: 1.25em;
   /*border-top: solid 0.3em black;*/
   padding-top: 0.7em;
+
 }
+
 
 .content a.feed-icon,
 .content a.feed-icon img,
@@ -418,15 +429,6 @@ ul.category-lobby-group-list li {
 /* Navigation font. */
 .technical-font {
   font-family: Arial,Helvetica,sans-serif;
-}
-
-.node-content .field-type-taxonomy-term-reference ul li {
-
-  margin-right: 0.7em;
-
-  &:last-of-type {
-	margin-right: 0;
-  }
 }
 
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
@@ -499,6 +501,15 @@ article .submitted {
 	color: #888;
   }
 
+}
+
+.node-content .field-type-taxonomy-term-reference ul li {
+
+  margin-right: 0.7em;
+
+  &:last-of-type {
+	margin-right: 0;
+  }
 }
 
 .node .node-content .field-type-taxonomy-term-reference a {
