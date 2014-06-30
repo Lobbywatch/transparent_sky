@@ -732,16 +732,17 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
 /* line 517, ../sass/transparent_sky.scss */
 article .tags, .node-content .field-type-taxonomy-term-reference {
   font-style: normal;
+  font-size: 0.923em;
 }
 
-/* line 522, ../sass/transparent_sky.scss */
+/* line 523, ../sass/transparent_sky.scss */
 article .links a,
 article .links a:visited {
   background-color: transparent;
   font-weight: 700;
 }
 
-/* line 529, ../sass/transparent_sky.scss */
+/* line 530, ../sass/transparent_sky.scss */
 article .links a:hover,
 article .links a:focus,
 article .links a:active {
@@ -749,12 +750,12 @@ article .links a:active {
   color: #1473D7;
 }
 
-/* line 534, ../sass/transparent_sky.scss */
+/* line 535, ../sass/transparent_sky.scss */
 article .read-more:before {
   content: "▶ ";
 }
 
-/* line 538, ../sass/transparent_sky.scss */
+/* line 539, ../sass/transparent_sky.scss */
 article.node-teaser .comment-add {
   display: none;
 }
@@ -765,7 +766,7 @@ article.node-teaser .comment-add {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 550, ../sass/transparent_sky.scss */
+  /* line 551, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -778,7 +779,7 @@ article.node-teaser .comment-add {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 563, ../sass/transparent_sky.scss */
+  /* line 564, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -786,7 +787,7 @@ article.node-teaser .comment-add {
     left: 0 !important;
   }
 
-  /* line 569, ../sass/transparent_sky.scss */
+  /* line 570, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
