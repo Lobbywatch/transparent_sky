@@ -801,13 +801,18 @@ article.node-teaser .node-content ul {
   margin-right: 10px;
 }
 
+/* line 583, ../sass/transparent_sky.scss */
+.rc-6 #page > footer {
+  border-radius: 6px 6px 0px 0px;
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 592, ../sass/transparent_sky.scss */
+  /* line 595, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -820,7 +825,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 605, ../sass/transparent_sky.scss */
+  /* line 608, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -828,7 +833,7 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 611, ../sass/transparent_sky.scss */
+  /* line 614, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
