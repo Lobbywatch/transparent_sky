@@ -536,6 +536,11 @@ article .read-more:before {
   content: "▶ ";
 }
 
+.node ul.links li a.read-more {
+  font-size: 100%;
+  padding: 0;
+}
+
 article.node-teaser .comment-add {
   display: none;
 }

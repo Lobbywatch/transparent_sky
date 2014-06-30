@@ -756,6 +756,12 @@ article .read-more:before {
 }
 
 /* line 539, ../sass/transparent_sky.scss */
+.node ul.links li a.read-more {
+  font-size: 100%;
+  padding: 0;
+}
+
+/* line 544, ../sass/transparent_sky.scss */
 article.node-teaser .comment-add {
   display: none;
 }
@@ -766,7 +772,7 @@ article.node-teaser .comment-add {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 551, ../sass/transparent_sky.scss */
+  /* line 556, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -779,7 +785,7 @@ article.node-teaser .comment-add {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 564, ../sass/transparent_sky.scss */
+  /* line 569, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -787,7 +793,7 @@ article.node-teaser .comment-add {
     left: 0 !important;
   }
 
-  /* line 570, ../sass/transparent_sky.scss */
+  /* line 575, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
