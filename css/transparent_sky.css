@@ -672,40 +672,43 @@ ul.category-lobby-group-list li {
   display: inline;
 }
 
-/* line 467, ../sass/transparent_sky.scss */
-.rc-6 #columns {
+/* line 468, ../sass/transparent_sky.scss */
+.rc-6 #columns,
+.rc-6 #page > footer {
   border-radius: 6px;
 }
 
-/* line 471, ../sass/transparent_sky.scss */
+/* line 474, ../sass/transparent_sky.scss */
 #footer-sitemap ul li {
   float: none;
 }
 
-/* line 475, ../sass/transparent_sky.scss */
+/* line 478, ../sass/transparent_sky.scss */
 #footer-sitemap .fs-block-content > div {
   vertical-align: top;
   display: inline-block;
   width: 30%;
 }
 
-/* line 481, ../sass/transparent_sky.scss */
+/* line 484, ../sass/transparent_sky.scss */
 .quicktabs_main.quicktabs-style-sky {
-  border-radius: 4px;
+  border-radius: 6px;
+  background-color: #4975a3;
 }
 
-/* line 485, ../sass/transparent_sky.scss */
+/* line 489, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
 
+/* b6d6e9 */
 /*****************************************************************************/
 /******************************************************************************
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 497, ../sass/transparent_sky.scss */
+  /* line 502, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -718,7 +721,7 @@ ul.category-lobby-group-list li {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 510, ../sass/transparent_sky.scss */
+  /* line 515, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -726,7 +729,7 @@ ul.category-lobby-group-list li {
     left: 0 !important;
   }
 
-  /* line 516, ../sass/transparent_sky.scss */
+  /* line 521, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }

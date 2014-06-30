@@ -464,9 +464,12 @@ ul.category-lobby-group-list li {
   display: inline;
 }
 
-.rc-6 #columns {
+.rc-6 #columns,
+.rc-6 #page > footer {
   border-radius: 6px;
 }
+
+
 
 #footer-sitemap ul li {
   float: none;
@@ -479,12 +482,14 @@ ul.category-lobby-group-list li {
 }
 
 .quicktabs_main.quicktabs-style-sky {
-  border-radius: 4px;
+  border-radius: 6px;
+  background-color: #4975a3;
 }
 
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
+/* b6d6e9 */
 
 /*****************************************************************************/
 /******************************************************************************
