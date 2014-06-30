@@ -237,7 +237,8 @@ h1.node-title a {
   color: #100011;
 }
 
-.sidebar {
+.sidebar,
+.sidebar h2 {
   color: #4d453e;
   background-color: #e1dfdc;
 }

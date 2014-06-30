@@ -484,6 +484,10 @@ ul.category-lobby-group-list li {
 .quicktabs_main.quicktabs-style-sky {
   border-radius: 6px;
   background-color: #4975a3;
+
+  label {
+	color: white;
+  }
 }
 
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {

@@ -695,8 +695,12 @@ ul.category-lobby-group-list li {
   border-radius: 6px;
   background-color: #4975a3;
 }
+/* line 488, ../sass/transparent_sky.scss */
+.quicktabs_main.quicktabs-style-sky label {
+  color: white;
+}
 
-/* line 489, ../sass/transparent_sky.scss */
+/* line 493, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
@@ -708,7 +712,7 @@ ul.category-lobby-group-list li {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 502, ../sass/transparent_sky.scss */
+  /* line 506, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -721,7 +725,7 @@ ul.category-lobby-group-list li {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 515, ../sass/transparent_sky.scss */
+  /* line 519, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -729,7 +733,7 @@ ul.category-lobby-group-list li {
     left: 0 !important;
   }
 
-  /* line 521, ../sass/transparent_sky.scss */
+  /* line 525, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
