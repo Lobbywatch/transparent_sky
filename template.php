@@ -52,8 +52,8 @@ function transparent_sky_preprocess_node(&$vars) {
   if (variable_get('node_submitted_' . $vars['node']->type, TRUE)) {
 	$param = array(
 	  '!username' => $vars['name'],
-	  '!datetime' => '<time datetime="' . $vars['datetime'] . '" pubdate="pubdate">' . l(format_date($node->created, 'short_date'), 'node/'. $node->nid, array('alias' => TRUE, 'attributes' => array('rel' => 'bookmark'))) . '</time>',
-	  '!modified' => '<time datetime="' . $vars['datetime_updated'] . '">' . format_date($node->changed, 'short_date') . '</time>'
+	  '!datetime' => '<time datetime="' . $vars['datetime'] . '" pubdate="pubdate">' . l(format_date($node->created, 'medium_date'), 'node/'. $node->nid, array('alias' => TRUE, 'attributes' => array('rel' => 'bookmark'))) . '</time>',
+	  '!modified' => '<time datetime="' . $vars['datetime_updated'] . '">' . format_date($node->changed, 'medium_date') . '</time>'
 	);
 
 	$vars['submitted'] = format_date($node->created, 'short_date') == format_date($node->changed, 'short_date') ? t("!username – !datetime", $param) : t("!username – !datetime (modified on !modified)", $param);
