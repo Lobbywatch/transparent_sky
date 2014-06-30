@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Transparent Sky transparent_sky.css
  *
@@ -728,13 +729,43 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
   font-weight: 700;
 }
 
+/* line 517, ../sass/transparent_sky.scss */
+article .tags, .node-content .field-type-taxonomy-term-reference {
+  font-style: normal;
+}
+
+/* line 522, ../sass/transparent_sky.scss */
+article .links a,
+article .links a:visited {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+/* line 529, ../sass/transparent_sky.scss */
+article .links a:hover,
+article .links a:focus,
+article .links a:active {
+  background-color: transparent;
+  color: #1473D7;
+}
+
+/* line 534, ../sass/transparent_sky.scss */
+article .read-more:before {
+  content: "▶ ";
+}
+
+/* line 538, ../sass/transparent_sky.scss */
+article.node-teaser .comment-add {
+  display: none;
+}
+
 /*****************************************************************************/
-/******************************************************************************
+/**
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 525, ../sass/transparent_sky.scss */
+  /* line 550, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -747,7 +778,7 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 538, ../sass/transparent_sky.scss */
+  /* line 563, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -755,7 +786,7 @@ article .submitted a, article .submitted a:visited, article .submitted a:link, a
     left: 0 !important;
   }
 
-  /* line 544, ../sass/transparent_sky.scss */
+  /* line 569, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }

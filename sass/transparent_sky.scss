@@ -511,11 +511,36 @@ article .submitted {
 }
 
 #block-system-main-menu {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+article .tags, .node-content .field-type-taxonomy-term-reference {
+  font-style: normal;
+}
+
+article .links a,
+article .links a:visited {
+  background-color: transparent;
+  font-weight: 700;
+}
+
+article .links a:hover,
+article .links a:focus,
+article .links a:active {
+  background-color: transparent;
+  color: #1473D7;
+}
+
+article .read-more:before {
+  content: "▶ ";
+}
+
+article.node-teaser .comment-add {
+  display: none;
 }
 
 /*****************************************************************************/
-/******************************************************************************
+/**
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
