@@ -434,7 +434,7 @@ ul.category-lobby-group-list li {
 
 /* line 390, ../sass/transparent_sky.scss */
 .sidebar .block:first-child {
-  margin-top: 0em;
+  /*margin-top: 0em;*/
   border-top: none;
   padding-top: 0em;
 }
