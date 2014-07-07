@@ -8,6 +8,11 @@ This is the Drupal theme of the lobbywatch.ch project.
 ## Requirements
 
 * Drupal 7
+* 
+
+## Base theme
+
+The theme transparent_sky is based on the [sky](https://www.drupal.org/project/sky) which is built with [AdaptiveTheme](https://www.drupal.org/project/adaptivetheme).
 
 ## License
 
