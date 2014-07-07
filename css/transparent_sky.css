@@ -848,3 +848,9 @@ article.node-teaser .node-content ul {
     width: 100%;
   }
 }
+@media only screen and (max-width: 1150px) {
+  /* line 630, ../sass/transparent_sky.scss */
+  #branding {
+    width: 100%;
+  }
+}
