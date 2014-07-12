@@ -592,6 +592,17 @@ article.node-teaser .node-content ul {
   clear: both;
 }
 
+.lobbywatch .record-unpublished,
+.lobbywatch .unpublished,
+.unreleased {
+  background-color: #FFF4F4;
+
+}
+
+.parlam-inactive {
+  text-decoration: line-through;
+}
+
 /*****************************************************************************/
 /**
  * Responsivness

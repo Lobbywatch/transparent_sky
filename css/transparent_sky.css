@@ -816,13 +816,25 @@ article.node-teaser .node-content ul {
   clear: both;
 }
 
+/* line 597, ../sass/transparent_sky.scss */
+.lobbywatch .record-unpublished,
+.lobbywatch .unpublished,
+.unreleased {
+  background-color: #FFF4F4;
+}
+
+/* line 602, ../sass/transparent_sky.scss */
+.parlam-inactive {
+  text-decoration: line-through;
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 603, ../sass/transparent_sky.scss */
+  /* line 614, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -835,7 +847,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 616, ../sass/transparent_sky.scss */
+  /* line 627, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -843,13 +855,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 622, ../sass/transparent_sky.scss */
+  /* line 633, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 630, ../sass/transparent_sky.scss */
+  /* line 641, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
