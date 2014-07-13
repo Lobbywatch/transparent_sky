@@ -217,18 +217,18 @@
 
 //   alert('Passed transperent_sky');
 
-// Autocomplete autosubmit, Ref: https://drupal.org/node/1772490
-  $(document).ready(function(){
-//     alert('Installed Drupal.jsAC.prototype.select');
-    // Adapted from Drupal autocomplete.js
-    Drupal.jsAC.prototype.select = function (node) {
-//       alert('Passed Drupal.jsAC.prototype.select');
-      this.input.value = $(node).data('autocompleteValue');
-      if(jQuery(this.input).hasClass('auto_submit')){
-        this.input.form.submit();
-      }
-    };
-  });
+// // Autocomplete autosubmit, Ref: https://drupal.org/node/1772490
+//   $(document).ready(function(){
+// //     alert('Installed Drupal.jsAC.prototype.select');
+//     // Adapted from Drupal autocomplete.js
+//     Drupal.jsAC.prototype.select = function (node) {
+// //       alert('Passed Drupal.jsAC.prototype.select');
+//       this.input.value = $(node).data('autocompleteValue');
+//       if(jQuery(this.input).hasClass('auto_submit')){
+//         this.input.form.submit();
+//       }
+//     };
+//   });
 
 // Copied from misc/autocomplete.js
 // Fixed autocomplete auto submit, ref https://www.drupal.org/node/309088
