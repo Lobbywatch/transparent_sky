@@ -608,6 +608,15 @@ article.node-teaser .node-content ul {
   max-width: 100%;
 }
 
+#block-lobbywatch-lobbywatch-search {
+
+  #edit-submit,
+  [for="edit-search-field"] {
+	display: none;
+  }
+
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
