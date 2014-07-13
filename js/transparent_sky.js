@@ -232,6 +232,21 @@
 
 // Copied from misc/autocomplete.js
 // Fixed autocomplete auto submit, ref https://www.drupal.org/node/309088
+
+// Drupal.jsAC = function ($input, db) {
+//   var ac = this;
+//   this.input = $input[0];
+//   this.ariaLive = $('#' + this.input.id + '-autocomplete-aria-live');
+//   this.db = db;
+//
+//   $input
+//     .keydown(function (event) { return ac.onkeydown(this, event); })
+//     .keyup(function (event) { ac.onkeyup(this, event); })
+//     .mouseup(function (event) { ac.onmouseup(this, event); })
+//     .blur(function () { ac.hidePopup(); ac.db.cancel(); });
+//
+// };
+
 /**
  * Handler for the "keyup" event.
  */
@@ -272,6 +287,17 @@ Drupal.jsAC.prototype.onkeyup = function (input, e) {
         this.hidePopup(e.keyCode);
       }
       return true;
+  }
+};
+
+/**
+ * Puts the currently highlighted suggestion into the autocomplete field.
+ */
+Drupal.jsAC.prototype.select = function (node) {
+  this.input.value = $(node).data('autocompleteValue');
+  // ibex 13.07.2014
+  if ($(this.input).hasClass('auto_submit')) {
+    this.input.form.submit();
   }
 };
 
