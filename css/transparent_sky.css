@@ -816,31 +816,35 @@ article.node-teaser .node-content ul {
   clear: both;
 }
 
-/* line 598, ../sass/transparent_sky.scss */
+/* line 597, ../sass/transparent_sky.scss */
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
-.unreleased,
-.admin {
+.unreleased {
   background-color: #FFF4F4;
 }
 
-/* line 603, ../sass/transparent_sky.scss */
+/* line 602, ../sass/transparent_sky.scss */
+.admin {
+  background-color: #FFE4E4;
+}
+
+/* line 607, ../sass/transparent_sky.scss */
 .parlam-inactive {
   background-color: #FFE4C4;
   text-decoration: line-through;
 }
 
-/* line 608, ../sass/transparent_sky.scss */
+/* line 612, ../sass/transparent_sky.scss */
 #edit-search-field {
   max-width: 100%;
 }
 
-/* line 615, ../sass/transparent_sky.scss */
+/* line 619, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search #edit-submit,
 #block-lobbywatch-lobbywatch-search [for="edit-search-field"] {
   display: none;
 }
-/* line 619, ../sass/transparent_sky.scss */
+/* line 623, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search #autocomplete ul li {
   font-size: 85%;
 }
@@ -851,7 +855,7 @@ article.node-teaser .node-content ul {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 633, ../sass/transparent_sky.scss */
+  /* line 637, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -864,7 +868,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 646, ../sass/transparent_sky.scss */
+  /* line 650, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -872,13 +876,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 652, ../sass/transparent_sky.scss */
+  /* line 656, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 660, ../sass/transparent_sky.scss */
+  /* line 664, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }

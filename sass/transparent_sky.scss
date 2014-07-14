@@ -594,11 +594,15 @@ article.node-teaser .node-content ul {
 
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
-.unreleased,
-.admin {
+.unreleased {
   background-color: #FFF4F4;
 
 }
+
+.admin {
+  background-color: #FFE4E4;
+}
+
 
 .parlam-inactive {
   background-color: #FFE4C4;
