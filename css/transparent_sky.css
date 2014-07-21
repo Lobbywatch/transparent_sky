@@ -699,58 +699,62 @@ ul.category-lobby-group-list li {
 .quicktabs_main.quicktabs-style-sky label {
   color: white;
 }
+/* line 492, ../sass/transparent_sky.scss */
+.quicktabs_main.quicktabs-style-sky .description {
+  color: #EEE;
+}
 
-/* line 493, ../sass/transparent_sky.scss */
+/* line 497, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
 
-/* line 497, ../sass/transparent_sky.scss */
+/* line 501, ../sass/transparent_sky.scss */
 article .submitted {
   color: #888;
 }
-/* line 500, ../sass/transparent_sky.scss */
+/* line 504, ../sass/transparent_sky.scss */
 article .submitted a, article .submitted a:visited, article .submitted a:link, article .submitted a:hover {
   color: #888;
 }
 
-/* line 506, ../sass/transparent_sky.scss */
+/* line 510, ../sass/transparent_sky.scss */
 .node-content .field-type-taxonomy-term-reference ul li {
   margin-right: 0.7em;
 }
-/* line 510, ../sass/transparent_sky.scss */
+/* line 514, ../sass/transparent_sky.scss */
 .node-content .field-type-taxonomy-term-reference ul li:last-of-type {
   margin-right: 0;
 }
 
-/* line 515, ../sass/transparent_sky.scss */
+/* line 519, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a {
   color: #888;
 }
-/* line 518, ../sass/transparent_sky.scss */
+/* line 522, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a:hover, .node .node-content .field-type-taxonomy-term-reference a:focus, .node .node-content .field-type-taxonomy-term-reference a:active {
   color: #1473D7;
 }
 
-/* line 524, ../sass/transparent_sky.scss */
+/* line 528, ../sass/transparent_sky.scss */
 #block-system-main-menu {
   font-weight: 700;
 }
 
-/* line 528, ../sass/transparent_sky.scss */
+/* line 532, ../sass/transparent_sky.scss */
 article .tags, .node-content .field-type-taxonomy-term-reference {
   font-style: normal;
   font-size: 0.923em;
 }
 
-/* line 534, ../sass/transparent_sky.scss */
+/* line 538, ../sass/transparent_sky.scss */
 article .links a,
 article .links a:visited {
   background-color: transparent;
   font-weight: 700;
 }
 
-/* line 541, ../sass/transparent_sky.scss */
+/* line 545, ../sass/transparent_sky.scss */
 article .links a:hover,
 article .links a:focus,
 article .links a:active {
@@ -758,93 +762,94 @@ article .links a:active {
   color: #1473D7;
 }
 
-/* line 546, ../sass/transparent_sky.scss */
+/* line 550, ../sass/transparent_sky.scss */
 article .read-more:before {
   content: "▶ ";
 }
 
-/* line 550, ../sass/transparent_sky.scss */
+/* line 554, ../sass/transparent_sky.scss */
 .node ul.links li a.read-more {
   font-size: 100%;
   padding: 0;
 }
 
-/* line 555, ../sass/transparent_sky.scss */
+/* line 559, ../sass/transparent_sky.scss */
 article.node-teaser .comment-add {
   display: none;
 }
 
 /* Style teaser image. */
-/* line 560, ../sass/transparent_sky.scss */
+/* line 564, ../sass/transparent_sky.scss */
 .field-name-field-image.field-type-image.view-mode-teaser figure.field-item {
   float: left;
 }
-/* line 563, ../sass/transparent_sky.scss */
+/* line 567, ../sass/transparent_sky.scss */
 .field-name-field-image.field-type-image.view-mode-teaser figure.field-item img {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 570, ../sass/transparent_sky.scss */
+/* line 574, ../sass/transparent_sky.scss */
 article.node-teaser .node-content ul {
   list-style-position: inside;
 }
 
-/* line 574, ../sass/transparent_sky.scss */
+/* line 578, ../sass/transparent_sky.scss */
 .region-three-33-second .block-inner {
   margin-left: 10px;
   margin-right: 0;
 }
 
-/* line 579, ../sass/transparent_sky.scss */
+/* line 583, ../sass/transparent_sky.scss */
 .region-three-33-first .block-inner {
   margin-right: 10px;
 }
 
-/* line 583, ../sass/transparent_sky.scss */
+/* line 587, ../sass/transparent_sky.scss */
 .rc-6 #page > footer {
   border-radius: 6px 6px 0px 0px;
 }
 
-/* line 587, ../sass/transparent_sky.scss */
+/* line 591, ../sass/transparent_sky.scss */
 #edit-kommissionen-wrapper {
   max-width: 100%;
 }
 
-/* line 591, ../sass/transparent_sky.scss */
+/* line 595, ../sass/transparent_sky.scss */
 #block-quicktabs-suche-tabs .views-submit-button {
   clear: both;
 }
 
-/* line 597, ../sass/transparent_sky.scss */
+/* line 602, ../sass/transparent_sky.scss */
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
-.unreleased {
+.lobbywatch .unpublished-data,
+.unpublished-data {
   background-color: #FFF4F4;
 }
 
-/* line 602, ../sass/transparent_sky.scss */
+/* line 607, ../sass/transparent_sky.scss */
 .admin {
-  background-color: #FFE4E4;
+  background-color: #FFE0E0;
 }
 
-/* line 607, ../sass/transparent_sky.scss */
+/* line 611, ../sass/transparent_sky.scss */
 .parlam-inactive {
-  background-color: #FFE4C4;
+  background-color: #FFB0B0;
   text-decoration: line-through;
 }
 
-/* line 612, ../sass/transparent_sky.scss */
+/* line 616, ../sass/transparent_sky.scss */
 #edit-search-field {
   max-width: 100%;
 }
 
-/* line 619, ../sass/transparent_sky.scss */
+/* line 623, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search #edit-submit,
 #block-lobbywatch-lobbywatch-search [for="edit-search-field"] {
   display: none;
 }
-/* line 623, ../sass/transparent_sky.scss */
+/* line 627, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search #autocomplete ul li {
   font-size: 85%;
 }
@@ -855,7 +860,7 @@ article.node-teaser .node-content ul {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 637, ../sass/transparent_sky.scss */
+  /* line 641, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -868,7 +873,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 650, ../sass/transparent_sky.scss */
+  /* line 654, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -876,13 +881,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 656, ../sass/transparent_sky.scss */
+  /* line 660, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 664, ../sass/transparent_sky.scss */
+  /* line 668, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
