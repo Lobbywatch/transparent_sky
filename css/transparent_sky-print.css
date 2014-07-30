@@ -10,7 +10,7 @@
 /**
  * Hidden
  */
-/* line 32, ../sass/transparent_sky-print.scss */
+/* line 33, ../sass/transparent_sky-print.scss */
 #toolbar,
 #breadcrumb-wrapper,
 #footer-buttons,
@@ -29,14 +29,15 @@
 #header > .region-header,
 #columns > div > .three-3x33,
 #footer-sitemap,
-.admin {
+.admin,
+.toggle-text {
   display: none !important;
 }
 
 /*
  * No border around content
  */
-/* line 40, ../sass/transparent_sky-print.scss */
+/* line 41, ../sass/transparent_sky-print.scss */
 .content-style,
 .bs-l #page .content-style {
   border-width: 0;
@@ -47,7 +48,7 @@
 /*
  * Copied from Corolla 1
  */
-/* line 49, ../sass/transparent_sky-print.scss */
+/* line 50, ../sass/transparent_sky-print.scss */
 body {
   font-size: 12pt;
   /*color: #000;
@@ -55,43 +56,43 @@ body {
   line-height: 1.4;*/
 }
 
-/* line 56, ../sass/transparent_sky-print.scss */
+/* line 57, ../sass/transparent_sky-print.scss */
 #branding {
   padding: 0;
   width: 100%;
 }
-/* line 60, ../sass/transparent_sky-print.scss */
+/* line 61, ../sass/transparent_sky-print.scss */
 #branding a:after {
   content: "";
 }
 
-/* line 65, ../sass/transparent_sky-print.scss */
+/* line 66, ../sass/transparent_sky-print.scss */
 body div, body p {
   font-family: "Times New Roman", serif !important;
 }
 
-/* line 68, ../sass/transparent_sky-print.scss */
+/* line 69, ../sass/transparent_sky-print.scss */
 h1 {
   font-size: 20pt;
   /*margin-top: 0.5em;
   margin-bottom: 0.5em;*/
 }
 
-/* line 73, ../sass/transparent_sky-print.scss */
+/* line 74, ../sass/transparent_sky-print.scss */
 h2 {
   font-size: 16pt;
   /*margin-top: 0.5em;
   margin-bottom: 0.4em;*/
 }
 
-/* line 78, ../sass/transparent_sky-print.scss */
+/* line 79, ../sass/transparent_sky-print.scss */
 h3 {
   font-size: 14pt;
   /*margin-top: 0.4em;
   margin-bottom: 0.3em;*/
 }
 
-/* line 85, ../sass/transparent_sky-print.scss */
+/* line 86, ../sass/transparent_sky-print.scss */
 h4,
 h5,
 h6 {
@@ -100,7 +101,7 @@ h6 {
   margin-bottom: 0.3em;*/
 }
 
-/* line 91, ../sass/transparent_sky-print.scss */
+/* line 92, ../sass/transparent_sky-print.scss */
 div.codeblock, div.expandable {
   position: static;
   z-index: 1;
@@ -109,7 +110,7 @@ div.codeblock, div.expandable {
   width: auto !important;
 }
 
-/* line 100, ../sass/transparent_sky-print.scss */
+/* line 101, ../sass/transparent_sky-print.scss */
 .meta a:link,
 .meta a:visited {
   font-weight: 400;
@@ -117,7 +118,7 @@ div.codeblock, div.expandable {
   /*color: #333;*/
 }
 
-/* line 106, ../sass/transparent_sky-print.scss */
+/* line 107, ../sass/transparent_sky-print.scss */
 blockquote {
   /*margin-top: 0.2em;
   margin-bottom: 0.2em;
@@ -135,13 +136,13 @@ blockquote {
   margin-top: 0.2em;
   margin-bottom: 0.2em;
 }*/
-/* line 124, ../sass/transparent_sky-print.scss */
+/* line 125, ../sass/transparent_sky-print.scss */
 .meta .submitted {
   margin-top: 1em;
 }
 
 /* Move to left border, or else show back-ground image. */
-/* line 162, ../sass/transparent_sky-print.scss */
+/* line 163, ../sass/transparent_sky-print.scss */
 .meta .submitted,
 .meta .field-name-field-kategorie,
 .view-unpublished-articles .views-field-field-kategorie,
@@ -179,13 +180,13 @@ blockquote {
   padding-left: 0;
 }
 
-/* line 166, ../sass/transparent_sky-print.scss */
+/* line 167, ../sass/transparent_sky-print.scss */
 #comments fieldset {
   border: none;
 }
 
 /* Show also internal links */
-/* line 172, ../sass/transparent_sky-print.scss */
+/* line 173, ../sass/transparent_sky-print.scss */
 a:link[href^="/"]:after,
 a[href^="/"]:visited:after {
   content: " (http://lobbywatch.ch" attr(href) ") ";
@@ -193,7 +194,7 @@ a[href^="/"]:visited:after {
 }
 
 /* Do not show dotted lines, they're helpful on the screen. */
-/* line 180, ../sass/transparent_sky-print.scss */
+/* line 181, ../sass/transparent_sky-print.scss */
 abbr[title],
 dfn[title],
 acronym[title] {
@@ -201,7 +202,7 @@ acronym[title] {
 }
 
 /* Resore mark color */
-/* line 185, ../sass/transparent_sky-print.scss */
+/* line 186, ../sass/transparent_sky-print.scss */
 mark {
   background: yellow;
   font-style: italic;
