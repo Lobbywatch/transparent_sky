@@ -31,6 +31,7 @@
 
   stylesheets[all][] = color/colors.css
   stylesheets[all][] = css/transparent_sky.css
+  stylesheets[print][] = css/transparent_sky-print.css
 
   ; Internet Explorer Stylesheets
   ;

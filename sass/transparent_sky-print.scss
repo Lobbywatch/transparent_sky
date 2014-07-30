@@ -1,0 +1,189 @@
+/**
+ * Transparent Sky transparent_sky.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * Run "compass watch" in the root directory of the theme or
+ * "compass watch <path>"
+ *
+ */
+
+/**
+ * Hidden
+ */
+#toolbar,
+#breadcrumb-wrapper,
+#footer-buttons,
+#special-content-footer,
+#closure,
+#prev-next,
+#right-corner-wrapper,
+#site-slogan,
+#block-views-related-block,
+#block-views-last-modifed-articles-block,
+.social-buttons,
+.footnotes a[rev="footnote"],
+.no-print,
+#messages,
+#block-system-main-menu,
+#header > .region-header,
+#columns > div > .three-3x33,
+#footer-sitemap,
+.admin {
+  display: none!important;
+}
+
+/*
+ * No border around content
+ */
+.content-style,
+.bs-l #page .content-style {
+  border-width: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/*
+ * Copied from Corolla 1
+ */
+body {
+  font-size: 12pt;
+  /*color: #000;
+  word-spacing: 1.1pt;
+  line-height: 1.4;*/
+}
+
+#branding {
+  padding: 0;
+  width: 100%;
+
+  a:after {
+	content: "";
+  }
+}
+
+body div, body p {
+  font-family: "Times New Roman", serif!important;
+}
+h1 {
+  font-size: 20pt;
+  /*margin-top: 0.5em;
+  margin-bottom: 0.5em;*/
+}
+h2 {
+  font-size: 16pt;
+  /*margin-top: 0.5em;
+  margin-bottom: 0.4em;*/
+}
+h3 {
+  font-size: 14pt;
+  /*margin-top: 0.4em;
+  margin-bottom: 0.3em;*/
+}
+h4,
+h5,
+h6 {
+  font-size: 12pt;
+  /*margin-top: 0.4em;
+  margin-bottom: 0.3em;*/
+}
+
+div.codeblock, div.expandable {
+  position: static;
+  z-index: 1;
+  overflow-x: visible!important;
+  white-space: pre-wrap!important;
+  width: auto!important;
+}
+
+.meta a:link,
+.meta a:visited {
+  font-weight: 400;
+  text-decoration: none;
+  /*color: #333;*/
+}
+
+blockquote {
+  /*margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: 1.3em;
+  margin-right: 1.3em;*/
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  /*padding-left: 1em;
+  padding-right: 1em;*/
+  /*font-style: italic;*/
+  font-size: 11pt;
+}
+
+/*body p {
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}*/
+
+.meta .submitted {
+  margin-top: 1em;
+}
+
+/* Move to left border, or else show back-ground image. */
+.meta .submitted,
+.meta .field-name-field-kategorie,
+.view-unpublished-articles .views-field-field-kategorie,
+.view-article-overview .views-field-field-kategorie,
+.view-article-archive .views-field-field-kategorie,
+.meta .field-name-field-keywords,
+.view-unpublished-articles .views-field-field-keywords,
+.view-article-overview .views-field-field-keywords,
+.view-article-archive .views-field-field-keywords,
+.meta .field-name-field-tags,
+.view-unpublished-articles .views-field-field-tags,
+.view-article-overview .views-field-field-tags,
+.view-article-archive .views-field-field-tags,
+.meta .field-name-field-tags,
+.view-unpublished-articles .views-field-field-tags,
+.view-article-overview .views-field-field-tags,
+.view-article-archive .views-field-field-tags,
+.meta .field-name-field-destination-feeds,
+.view-unpublished-articles .views-field-field-destination-feeds,
+.view-article-overview .views-field-field-destination-feeds,
+.view-article-archive .views-field-field-destination-feeds,
+.meta .field-name-field-source,
+.view-unpublished-articles .views-field-field-source,
+.view-article-overview .views-field-field-source,
+.view-article-archive .views-field-field-source,
+.meta .field-name-field-links .field-item,
+.view-unpublished-articles .views-field-field-links,
+.view-article-overview .views-field-field-links,
+.view-article-archive .views-field-field-links,
+.meta .wordcount,
+.meta .translation-wrapper,
+.comment-links,
+.article .links-wrapper,
+.node .links-wrapper {
+  padding-left: 0;
+}
+
+#comments fieldset {
+  border: none;
+}
+
+/* Show also internal links */
+a:link[href^="/"]:after,
+a[href^="/"]:visited:after {
+  content:" (http://lobbywatch.ch" attr(href) ") ";
+  font-size: 10pt;
+}
+
+/* Do not show dotted lines, they're helpful on the screen. */
+abbr[title],
+dfn[title],
+acronym[title] {
+  border-bottom: none;
+}
+
+/* Resore mark color */
+mark {
+  background: yellow;
+  font-style: italic;
+  /*color: black;*/
+}
