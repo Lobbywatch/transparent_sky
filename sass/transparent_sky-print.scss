@@ -54,8 +54,12 @@ body {
   line-height: 1.4;*/
 }
 
-#branding {
-  padding: 0;
+#branding,
+#header,
+#columns > .columns-inner,
+#content-column {
+  padding: 0!important;
+  margin: 0!important;
   width: 100%;
 
   a:after {
