@@ -173,11 +173,11 @@ blockquote {
 }
 
 /* Show also internal links */
-a:link[href^="/"]:after,
+/*a:link[href^="/"]:after,
 a[href^="/"]:visited:after {
   content:" (http://lobbywatch.ch" attr(href) ") ";
   font-size: 10pt;
-}
+}*/
 
 /* Do not show dotted lines, they're helpful on the screen. */
 abbr[title],
