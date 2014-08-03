@@ -494,8 +494,50 @@ ul.category-lobby-group-list li {
   }
 }
 
-#quicktabs-suche_tabs .quicktabs-style-sky li > a {
-  border-radius: 6px 6px 0px 0px;
+#quicktabs-suche_tabs .quicktabs-style-sky {
+  li > a {
+	border-radius: 6px 6px 0px 0px;
+  }
+
+  .form-item-result-type {
+	label,
+	.form-item label,
+	div {
+	  display: inline;
+	}
+  }
+
+}
+
+#edit-search-field {
+  max-width: 100%;
+}
+
+#block-lobbywatch-lobbywatch-search {
+
+  #edit-submit,
+  [for="edit-search-field"] {
+	display: none;
+  }
+
+  #autocomplete ul li {
+	font-size: 85%;
+  }
+
+  .description {
+	display: none;
+	font-size: 85%;
+  }
+
+  /*fieldset { overflow:hidden }
+  .some-class { float:left; clear:none; }
+  label { float:left; clear:none; display:block; padding: 2px 1em 0 0; }
+  input[type=radio], input.radio { float:left; clear:none; margin: 2px 0 0 2px; }*/
+
+  .form-item-result-type {
+	  display: none;
+  }
+
 }
 
 article .submitted {
@@ -611,27 +653,6 @@ article.node-teaser .node-content ul {
 .parlam-inactive {
   background-color: #FFB0B0;
   text-decoration: line-through;
-}
-
-#edit-search-field {
-  max-width: 100%;
-}
-
-#block-lobbywatch-lobbywatch-search {
-
-  #edit-submit,
-  [for="edit-search-field"] {
-	display: none;
-  }
-
-  #autocomplete ul li {
-	font-size: 85%;
-  }
-
-  .description {
-	display: none;
-	font-size: 85%;
-  }
 }
 
 .toggle-text {

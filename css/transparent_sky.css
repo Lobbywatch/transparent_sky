@@ -704,57 +704,94 @@ ul.category-lobby-group-list li {
   color: #EEE;
 }
 
-/* line 497, ../sass/transparent_sky.scss */
+/* line 498, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
+/* line 505, ../sass/transparent_sky.scss */
+#quicktabs-suche_tabs .quicktabs-style-sky .form-item-result-type label,
+#quicktabs-suche_tabs .quicktabs-style-sky .form-item-result-type .form-item label,
+#quicktabs-suche_tabs .quicktabs-style-sky .form-item-result-type div {
+  display: inline;
+}
 
-/* line 501, ../sass/transparent_sky.scss */
+/* line 512, ../sass/transparent_sky.scss */
+#edit-search-field {
+  max-width: 100%;
+}
+
+/* line 516, ../sass/transparent_sky.scss */
+#block-lobbywatch-lobbywatch-search {
+  /*fieldset { overflow:hidden }
+  .some-class { float:left; clear:none; }
+  label { float:left; clear:none; display:block; padding: 2px 1em 0 0; }
+  input[type=radio], input.radio { float:left; clear:none; margin: 2px 0 0 2px; }*/
+}
+/* line 519, ../sass/transparent_sky.scss */
+#block-lobbywatch-lobbywatch-search #edit-submit,
+#block-lobbywatch-lobbywatch-search [for="edit-search-field"] {
+  display: none;
+}
+/* line 523, ../sass/transparent_sky.scss */
+#block-lobbywatch-lobbywatch-search #autocomplete ul li {
+  font-size: 85%;
+}
+/* line 527, ../sass/transparent_sky.scss */
+#block-lobbywatch-lobbywatch-search .description {
+  display: none;
+  font-size: 85%;
+}
+/* line 537, ../sass/transparent_sky.scss */
+#block-lobbywatch-lobbywatch-search .form-item-result-type {
+  display: none;
+}
+
+/* line 543, ../sass/transparent_sky.scss */
 article .submitted {
   color: #888;
 }
-/* line 504, ../sass/transparent_sky.scss */
+/* line 546, ../sass/transparent_sky.scss */
 article .submitted a, article .submitted a:visited, article .submitted a:link, article .submitted a:hover {
   color: #888;
 }
 
-/* line 510, ../sass/transparent_sky.scss */
+/* line 552, ../sass/transparent_sky.scss */
 .node-content .field-type-taxonomy-term-reference ul li {
   margin-right: 0.7em;
 }
-/* line 514, ../sass/transparent_sky.scss */
+/* line 556, ../sass/transparent_sky.scss */
 .node-content .field-type-taxonomy-term-reference ul li:last-of-type {
   margin-right: 0;
 }
 
-/* line 519, ../sass/transparent_sky.scss */
+/* line 561, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a {
   color: #888;
 }
-/* line 522, ../sass/transparent_sky.scss */
+/* line 564, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a:hover, .node .node-content .field-type-taxonomy-term-reference a:focus, .node .node-content .field-type-taxonomy-term-reference a:active {
   color: #1473D7;
 }
 
-/* line 528, ../sass/transparent_sky.scss */
+/* line 570, ../sass/transparent_sky.scss */
 #block-system-main-menu {
   font-weight: 700;
 }
 
-/* line 532, ../sass/transparent_sky.scss */
+/* line 574, ../sass/transparent_sky.scss */
 article .tags, .node-content .field-type-taxonomy-term-reference {
   font-style: normal;
   font-size: 0.923em;
 }
 
-/* line 538, ../sass/transparent_sky.scss */
+/* line 580, ../sass/transparent_sky.scss */
 article .links a,
 article .links a:visited {
   background-color: transparent;
   font-weight: 700;
 }
 
-/* line 545, ../sass/transparent_sky.scss */
+/* line 587, ../sass/transparent_sky.scss */
 article .links a:hover,
 article .links a:focus,
 article .links a:active {
@@ -762,65 +799,65 @@ article .links a:active {
   color: #1473D7;
 }
 
-/* line 550, ../sass/transparent_sky.scss */
+/* line 592, ../sass/transparent_sky.scss */
 article .read-more:before {
   content: "▶ ";
 }
 
-/* line 554, ../sass/transparent_sky.scss */
+/* line 596, ../sass/transparent_sky.scss */
 .node ul.links li a.read-more {
   font-size: 100%;
   padding: 0;
 }
 
-/* line 559, ../sass/transparent_sky.scss */
+/* line 601, ../sass/transparent_sky.scss */
 article.node-teaser .comment-add {
   display: none;
 }
 
 /* Style teaser image. */
-/* line 564, ../sass/transparent_sky.scss */
+/* line 606, ../sass/transparent_sky.scss */
 .field-name-field-image.field-type-image.view-mode-teaser figure.field-item {
   float: left;
 }
-/* line 567, ../sass/transparent_sky.scss */
+/* line 609, ../sass/transparent_sky.scss */
 .field-name-field-image.field-type-image.view-mode-teaser figure.field-item img {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 574, ../sass/transparent_sky.scss */
+/* line 616, ../sass/transparent_sky.scss */
 article.node-teaser .node-content ul {
   list-style-position: inside;
 }
 
-/* line 578, ../sass/transparent_sky.scss */
+/* line 620, ../sass/transparent_sky.scss */
 .region-three-33-second .block-inner {
   margin-left: 10px;
   margin-right: 0;
 }
 
-/* line 583, ../sass/transparent_sky.scss */
+/* line 625, ../sass/transparent_sky.scss */
 .region-three-33-first .block-inner {
   margin-right: 10px;
 }
 
-/* line 587, ../sass/transparent_sky.scss */
+/* line 629, ../sass/transparent_sky.scss */
 .rc-6 #page > footer {
   border-radius: 6px 6px 0px 0px;
 }
 
-/* line 591, ../sass/transparent_sky.scss */
+/* line 633, ../sass/transparent_sky.scss */
 #edit-kommissionen-wrapper {
   max-width: 100%;
 }
 
-/* line 595, ../sass/transparent_sky.scss */
+/* line 637, ../sass/transparent_sky.scss */
 #block-quicktabs-suche-tabs .views-submit-button {
   clear: both;
 }
 
-/* line 602, ../sass/transparent_sky.scss */
+/* line 644, ../sass/transparent_sky.scss */
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
 .lobbywatch .unpublished-data,
@@ -828,38 +865,18 @@ article.node-teaser .node-content ul {
   background-color: #FFF4F4;
 }
 
-/* line 607, ../sass/transparent_sky.scss */
+/* line 649, ../sass/transparent_sky.scss */
 .admin {
   background-color: #FFE0E0;
 }
 
-/* line 611, ../sass/transparent_sky.scss */
+/* line 653, ../sass/transparent_sky.scss */
 .parlam-inactive {
   background-color: #FFB0B0;
   text-decoration: line-through;
 }
 
-/* line 616, ../sass/transparent_sky.scss */
-#edit-search-field {
-  max-width: 100%;
-}
-
-/* line 623, ../sass/transparent_sky.scss */
-#block-lobbywatch-lobbywatch-search #edit-submit,
-#block-lobbywatch-lobbywatch-search [for="edit-search-field"] {
-  display: none;
-}
-/* line 627, ../sass/transparent_sky.scss */
-#block-lobbywatch-lobbywatch-search #autocomplete ul li {
-  font-size: 85%;
-}
-/* line 631, ../sass/transparent_sky.scss */
-#block-lobbywatch-lobbywatch-search .description {
-  display: none;
-  font-size: 85%;
-}
-
-/* line 637, ../sass/transparent_sky.scss */
+/* line 658, ../sass/transparent_sky.scss */
 .toggle-text {
   cursor: pointer;
 }
@@ -870,7 +887,7 @@ article.node-teaser .node-content ul {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 649, ../sass/transparent_sky.scss */
+  /* line 670, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -883,7 +900,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 662, ../sass/transparent_sky.scss */
+  /* line 683, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -891,13 +908,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 668, ../sass/transparent_sky.scss */
+  /* line 689, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 676, ../sass/transparent_sky.scss */
+  /* line 697, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
