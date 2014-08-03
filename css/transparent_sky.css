@@ -881,13 +881,21 @@ article.node-teaser .node-content ul {
   cursor: pointer;
 }
 
+/* line 662, ../sass/transparent_sky.scss */
+.parlamentarier-kleinbild {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 2em;
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 670, ../sass/transparent_sky.scss */
+  /* line 677, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -900,7 +908,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 683, ../sass/transparent_sky.scss */
+  /* line 690, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -908,13 +916,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 689, ../sass/transparent_sky.scss */
+  /* line 696, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 697, ../sass/transparent_sky.scss */
+  /* line 704, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
