@@ -870,31 +870,32 @@ article.node-teaser .node-content ul {
   clear: both;
 }
 
-/* line 659, ../sass/transparent_sky.scss */
+/* line 660, ../sass/transparent_sky.scss */
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
 .lobbywatch .unpublished-data,
-.unpublished-data {
+.unpublished-data,
+.unreleased {
   background-color: #FFF4F4;
 }
 
-/* line 664, ../sass/transparent_sky.scss */
+/* line 665, ../sass/transparent_sky.scss */
 .admin {
   background-color: #FFE0E0;
 }
 
-/* line 668, ../sass/transparent_sky.scss */
+/* line 669, ../sass/transparent_sky.scss */
 .parlam-inactive {
   background-color: #FFB0B0;
   text-decoration: line-through;
 }
 
-/* line 673, ../sass/transparent_sky.scss */
+/* line 674, ../sass/transparent_sky.scss */
 .toggle-text {
   cursor: pointer;
 }
 
-/* line 677, ../sass/transparent_sky.scss */
+/* line 678, ../sass/transparent_sky.scss */
 .parlamentarier-kleinbild {
   display: inline-block;
   vertical-align: middle;
@@ -908,7 +909,7 @@ article.node-teaser .node-content ul {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 692, ../sass/transparent_sky.scss */
+  /* line 693, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -921,7 +922,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 705, ../sass/transparent_sky.scss */
+  /* line 706, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -929,13 +930,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 711, ../sass/transparent_sky.scss */
+  /* line 712, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 719, ../sass/transparent_sky.scss */
+  /* line 720, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
