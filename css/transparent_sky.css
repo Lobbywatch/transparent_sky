@@ -695,115 +695,116 @@ ul.category-lobby-group-list li {
   border-radius: 6px;
   background-color: #4975a3;
 }
-/* line 488, ../sass/transparent_sky.scss */
-.quicktabs_main.quicktabs-style-sky label {
+/* line 489, ../sass/transparent_sky.scss */
+.quicktabs_main.quicktabs-style-sky label,
+.quicktabs_main.quicktabs-style-sky .block-title {
   color: white;
 }
-/* line 492, ../sass/transparent_sky.scss */
+/* line 493, ../sass/transparent_sky.scss */
 .quicktabs_main.quicktabs-style-sky .description {
   color: #EEE;
 }
 
-/* line 498, ../sass/transparent_sky.scss */
+/* line 499, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky li > a {
   border-radius: 6px 6px 0px 0px;
 }
-/* line 505, ../sass/transparent_sky.scss */
+/* line 506, ../sass/transparent_sky.scss */
 #quicktabs-suche_tabs .quicktabs-style-sky .form-item-result-type label,
 #quicktabs-suche_tabs .quicktabs-style-sky .form-item-result-type .form-item label,
 #quicktabs-suche_tabs .quicktabs-style-sky .form-item-result-type div {
   display: inline;
 }
 
-/* line 512, ../sass/transparent_sky.scss */
+/* line 513, ../sass/transparent_sky.scss */
 #edit-search-field {
   max-width: 100%;
 }
 
-/* line 516, ../sass/transparent_sky.scss */
+/* line 517, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search {
   /*fieldset { overflow:hidden }
   .some-class { float:left; clear:none; }
   label { float:left; clear:none; display:block; padding: 2px 1em 0 0; }
   input[type=radio], input.radio { float:left; clear:none; margin: 2px 0 0 2px; }*/
 }
-/* line 519, ../sass/transparent_sky.scss */
+/* line 520, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search #edit-submit,
 #block-lobbywatch-lobbywatch-search [for="edit-search-field"] {
   display: none;
 }
-/* line 523, ../sass/transparent_sky.scss */
+/* line 524, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search #autocomplete ul li {
   font-size: 85%;
 }
-/* line 527, ../sass/transparent_sky.scss */
+/* line 528, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search .description {
   display: none;
   font-size: 85%;
 }
-/* line 537, ../sass/transparent_sky.scss */
+/* line 538, ../sass/transparent_sky.scss */
 #block-lobbywatch-lobbywatch-search .form-item-result-type {
   display: none;
 }
 
-/* line 547, ../sass/transparent_sky.scss */
+/* line 548, ../sass/transparent_sky.scss */
 #search-form .form-item-result-type label,
 #search-form .form-item-result-type .form-item label,
 #search-form .form-item-result-type div {
   display: inline;
 }
 
-/* line 553, ../sass/transparent_sky.scss */
+/* line 554, ../sass/transparent_sky.scss */
 #block-search-form .form-item-search-block-form input {
   width: 90%;
 }
 
-/* line 557, ../sass/transparent_sky.scss */
+/* line 558, ../sass/transparent_sky.scss */
 article .submitted {
   color: #888;
 }
-/* line 560, ../sass/transparent_sky.scss */
+/* line 561, ../sass/transparent_sky.scss */
 article .submitted a, article .submitted a:visited, article .submitted a:link, article .submitted a:hover {
   color: #888;
 }
 
-/* line 566, ../sass/transparent_sky.scss */
+/* line 567, ../sass/transparent_sky.scss */
 .node-content .field-type-taxonomy-term-reference ul li {
   margin-right: 0.7em;
 }
-/* line 570, ../sass/transparent_sky.scss */
+/* line 571, ../sass/transparent_sky.scss */
 .node-content .field-type-taxonomy-term-reference ul li:last-of-type {
   margin-right: 0;
 }
 
-/* line 575, ../sass/transparent_sky.scss */
+/* line 576, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a {
   color: #888;
 }
-/* line 578, ../sass/transparent_sky.scss */
+/* line 579, ../sass/transparent_sky.scss */
 .node .node-content .field-type-taxonomy-term-reference a:hover, .node .node-content .field-type-taxonomy-term-reference a:focus, .node .node-content .field-type-taxonomy-term-reference a:active {
   color: #1473D7;
 }
 
-/* line 584, ../sass/transparent_sky.scss */
+/* line 585, ../sass/transparent_sky.scss */
 #block-system-main-menu {
   font-weight: 700;
 }
 
-/* line 588, ../sass/transparent_sky.scss */
+/* line 589, ../sass/transparent_sky.scss */
 article .tags, .node-content .field-type-taxonomy-term-reference {
   font-style: normal;
   font-size: 0.923em;
 }
 
-/* line 594, ../sass/transparent_sky.scss */
+/* line 595, ../sass/transparent_sky.scss */
 article .links a,
 article .links a:visited {
   background-color: transparent;
   font-weight: 700;
 }
 
-/* line 601, ../sass/transparent_sky.scss */
+/* line 602, ../sass/transparent_sky.scss */
 article .links a:hover,
 article .links a:focus,
 article .links a:active {
@@ -811,65 +812,65 @@ article .links a:active {
   color: #1473D7;
 }
 
-/* line 606, ../sass/transparent_sky.scss */
+/* line 607, ../sass/transparent_sky.scss */
 article .read-more:before {
   content: "▶ ";
 }
 
-/* line 610, ../sass/transparent_sky.scss */
+/* line 611, ../sass/transparent_sky.scss */
 .node ul.links li a.read-more {
   font-size: 100%;
   padding: 0;
 }
 
-/* line 615, ../sass/transparent_sky.scss */
+/* line 616, ../sass/transparent_sky.scss */
 article.node-teaser .comment-add {
   display: none;
 }
 
 /* Style teaser image. */
-/* line 620, ../sass/transparent_sky.scss */
+/* line 621, ../sass/transparent_sky.scss */
 .field-name-field-image.field-type-image.view-mode-teaser figure.field-item {
   float: left;
 }
-/* line 623, ../sass/transparent_sky.scss */
+/* line 624, ../sass/transparent_sky.scss */
 .field-name-field-image.field-type-image.view-mode-teaser figure.field-item img {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 630, ../sass/transparent_sky.scss */
+/* line 631, ../sass/transparent_sky.scss */
 article.node-teaser .node-content ul {
   list-style-position: inside;
 }
 
-/* line 634, ../sass/transparent_sky.scss */
+/* line 635, ../sass/transparent_sky.scss */
 .region-three-33-second .block-inner {
   margin-left: 10px;
   margin-right: 0;
 }
 
-/* line 639, ../sass/transparent_sky.scss */
+/* line 640, ../sass/transparent_sky.scss */
 .region-three-33-first .block-inner {
   margin-right: 10px;
 }
 
-/* line 643, ../sass/transparent_sky.scss */
+/* line 644, ../sass/transparent_sky.scss */
 .rc-6 #page > footer {
   border-radius: 6px 6px 0px 0px;
 }
 
-/* line 647, ../sass/transparent_sky.scss */
+/* line 648, ../sass/transparent_sky.scss */
 #edit-kommissionen-wrapper {
   max-width: 100%;
 }
 
-/* line 651, ../sass/transparent_sky.scss */
+/* line 652, ../sass/transparent_sky.scss */
 #block-quicktabs-suche-tabs .views-submit-button {
   clear: both;
 }
 
-/* line 658, ../sass/transparent_sky.scss */
+/* line 659, ../sass/transparent_sky.scss */
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
 .lobbywatch .unpublished-data,
@@ -877,23 +878,23 @@ article.node-teaser .node-content ul {
   background-color: #FFF4F4;
 }
 
-/* line 663, ../sass/transparent_sky.scss */
+/* line 664, ../sass/transparent_sky.scss */
 .admin {
   background-color: #FFE0E0;
 }
 
-/* line 667, ../sass/transparent_sky.scss */
+/* line 668, ../sass/transparent_sky.scss */
 .parlam-inactive {
   background-color: #FFB0B0;
   text-decoration: line-through;
 }
 
-/* line 672, ../sass/transparent_sky.scss */
+/* line 673, ../sass/transparent_sky.scss */
 .toggle-text {
   cursor: pointer;
 }
 
-/* line 676, ../sass/transparent_sky.scss */
+/* line 677, ../sass/transparent_sky.scss */
 .parlamentarier-kleinbild {
   display: inline-block;
   vertical-align: middle;
@@ -907,7 +908,7 @@ article.node-teaser .node-content ul {
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 691, ../sass/transparent_sky.scss */
+  /* line 692, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -920,7 +921,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 704, ../sass/transparent_sky.scss */
+  /* line 705, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -928,13 +929,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 710, ../sass/transparent_sky.scss */
+  /* line 711, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 718, ../sass/transparent_sky.scss */
+  /* line 719, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
