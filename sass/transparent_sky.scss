@@ -540,6 +540,16 @@ ul.category-lobby-group-list li {
 
 }
 
+#search-form {
+  .form-item-result-type {
+	label,
+	.form-item label,
+	div {
+	  display: inline;
+	}
+  }
+}
+
 article .submitted {
   color: #888;
 
