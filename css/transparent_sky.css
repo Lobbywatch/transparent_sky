@@ -903,13 +903,61 @@ article.node-teaser .node-content ul {
   margin-right: 2em;
 }
 
+/* line 685, ../sass/transparent_sky.scss */
+.wirksamkeit-tief {
+  color: #68B3C6;
+}
+/* line 687, ../sass/transparent_sky.scss */
+.wirksamkeit-tief a:hover, .wirksamkeit-tief a:focus, .wirksamkeit-tief a:active {
+  color: #68B3C6;
+  /*font-weight: 700;*/
+  text-decoration: underline;
+}
+/* line 692, ../sass/transparent_sky.scss */
+.wirksamkeit-tief a, .wirksamkeit-tief a:visited {
+  color: #68B3C6;
+  /*text-decoration: underline;*/
+}
+
+/* line 698, ../sass/transparent_sky.scss */
+.wirksamkeit-mittel {
+  color: #F49E00;
+}
+/* line 700, ../sass/transparent_sky.scss */
+.wirksamkeit-mittel a:hover, .wirksamkeit-mittel a:focus, .wirksamkeit-mittel a:active {
+  color: #F49E00;
+  /*font-weight: 700;*/
+  text-decoration: underline;
+}
+/* line 705, ../sass/transparent_sky.scss */
+.wirksamkeit-mittel a, .wirksamkeit-mittel a:visited {
+  color: #F49E00;
+  /*text-decoration: underline;*/
+}
+
+/* line 711, ../sass/transparent_sky.scss */
+.wirksamkeit-hoch {
+  color: #E20025;
+}
+/* line 713, ../sass/transparent_sky.scss */
+.wirksamkeit-hoch a:hover, .wirksamkeit-hoch a:focus, .wirksamkeit-hoch a:active {
+  color: #E20025;
+  /*font-weight: 700;*/
+  text-decoration: underline;
+}
+/* line 718, ../sass/transparent_sky.scss */
+.wirksamkeit-hoch a, .wirksamkeit-hoch a:visited {
+  color: #E20025;
+  /*text-decoration: underline;*/
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
  * Keep it at the end in order to overwrite default values.
  */
 @media only screen and (max-width: 768px) {
-  /* line 693, ../sass/transparent_sky.scss */
+  /* line 732, ../sass/transparent_sky.scss */
   article.article-type-quote,
   article.node-quote {
     width: 95%;
@@ -922,7 +970,7 @@ article.node-teaser .node-content ul {
   /* Floating_block: Do not stick subscribe block and navigation on smartphones.
    * #block-block-1, #block-system-navigation
    */
-  /* line 706, ../sass/transparent_sky.scss */
+  /* line 745, ../sass/transparent_sky.scss */
   .floating-fixed,
   .floating-block-active {
     position: relative !important;
@@ -930,13 +978,13 @@ article.node-teaser .node-content ul {
     left: 0 !important;
   }
 
-  /* line 712, ../sass/transparent_sky.scss */
+  /* line 751, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }
 }
 @media only screen and (max-width: 1150px) {
-  /* line 720, ../sass/transparent_sky.scss */
+  /* line 759, ../sass/transparent_sky.scss */
   #branding {
     width: 100%;
   }

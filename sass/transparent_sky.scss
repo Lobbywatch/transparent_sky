@@ -682,6 +682,45 @@ article.node-teaser .node-content ul {
   margin-right: 2em;
 }
 
+.wirksamkeit-tief {
+  color: #68B3C6;
+  a:hover, a:focus, a:active {
+	color: #68B3C6;
+	/*font-weight: 700;*/
+	text-decoration: underline;
+ }
+  a, a:visited {
+	color: #68B3C6;
+	/*text-decoration: underline;*/
+  }
+}
+
+.wirksamkeit-mittel {
+  color: #F49E00;
+  a:hover, a:focus, a:active {
+	color: #F49E00;
+	/*font-weight: 700;*/
+	text-decoration: underline;
+  }
+  a, a:visited {
+	color: #F49E00;
+	/*text-decoration: underline;*/
+  }
+}
+
+.wirksamkeit-hoch {
+  color: #E20025;
+  a:hover, a:focus, a:active {
+	color: #E20025;
+	/*font-weight: 700;*/
+	text-decoration: underline;
+  }
+  a, a:visited {
+	color: #E20025;
+	/*text-decoration: underline;*/
+  }
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
