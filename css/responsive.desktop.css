@@ -1,12 +1,1 @@
-/* line 4, ../sass/responsive.desktop.scss */
-.floating-fixed,
-.floating-block-active,
-.sidebar .block.floating-block-active {
-  z-index: 5;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  background-color: #C0D9EC;
-  margin-top: 0;
-  margin-bottom: 0;
-  border: none;
-}
+.floating-fixed, .floating-block-active, .sidebar .block.floating-block-active { z-index: 5; padding-top: 1em; padding-bottom: 1em; background-color: #C0D9EC; margin-top: 0; margin-bottom: 0; border: none; }
