@@ -708,7 +708,10 @@ article.node-teaser .node-content ul {
   }
 }
 
-.wirksamkeit-hoch {
+.wirksamkeit-hoch,
+.wirksamkeit-sehr-hoch,
+.wirksamkeit-extrem-hoch
+{
   color: #E20025;
   a:hover, a:focus, a:active {
 	color: #E20025;
