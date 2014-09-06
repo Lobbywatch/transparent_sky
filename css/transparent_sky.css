@@ -193,7 +193,7 @@ ul.category-list li, ul.category-lobby-group-list li { list-style-image: url("..
 .some-class { float:left; clear:none; }
 label { float:left; clear:none; display:block; padding: 2px 1em 0 0; }
 input[type=radio], input.radio { float:left; clear:none; margin: 2px 0 0 2px; }*/ }
-#block-lobbywatch-lobbywatch-search #edit-submit, #block-lobbywatch-lobbywatch-search [for="edit-search-field"] { display: none; }
+#block-lobbywatch-lobbywatch-search #edit-submit, #block-lobbywatch-lobbywatch-search #edit-submit--2, #block-lobbywatch-lobbywatch-search [for="edit-search-field"] { display: none; }
 #block-lobbywatch-lobbywatch-search #autocomplete ul li { font-size: 85%; }
 #block-lobbywatch-lobbywatch-search .description { display: none; font-size: 85%; }
 #block-lobbywatch-lobbywatch-search .form-item-result-type { display: none; }
