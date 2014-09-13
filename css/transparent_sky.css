@@ -263,6 +263,12 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 .wirksamkeit-hoch a:hover, .wirksamkeit-hoch a:focus, .wirksamkeit-hoch a:active, .wirksamkeit-sehr-hoch a:hover, .wirksamkeit-sehr-hoch a:focus, .wirksamkeit-sehr-hoch a:active, .wirksamkeit-extrem-hoch a:hover, .wirksamkeit-extrem-hoch a:focus, .wirksamkeit-extrem-hoch a:active { color: #E20025; /*font-weight: 700;*/ text-decoration: underline; }
 .wirksamkeit-hoch a, .wirksamkeit-hoch a:visited, .wirksamkeit-sehr-hoch a, .wirksamkeit-sehr-hoch a:visited, .wirksamkeit-extrem-hoch a, .wirksamkeit-extrem-hoch a:visited { color: #E20025; /*text-decoration: underline;*/ }
 
+.legend { float: right; border-style: dotted; border-width: 1px; padding: 0.2em; }
+.legend ul { margin: 0; }
+.legend ul li { display: inline; list-style-type: none; }
+.legend ul li:after { content: ", "; }
+.legend ul li:last-child:after { content: ""; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width: 768px) { article.article-type-quote, article.node-quote { width: 95%; }

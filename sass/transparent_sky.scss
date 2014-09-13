@@ -725,6 +725,29 @@ article.node-teaser .node-content ul {
   }
 }
 
+.legend {
+  float: right;
+  border-style: dotted;
+  border-width: 1px;
+  padding: 0.2em;
+
+  ul {
+	margin: 0;
+
+	li {
+	  display: inline;
+	  list-style-type: none;
+
+	  &:after {
+		content: ", ";
+	  }
+	  &:last-child:after {
+		content: "";
+	  }
+	}
+  }
+}
+
 /*****************************************************************************/
 /**
  * Responsivness
