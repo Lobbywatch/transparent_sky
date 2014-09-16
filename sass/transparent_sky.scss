@@ -730,8 +730,9 @@ article.node-teaser .node-content ul {
   border-style: dotted;
   border-width: 1px;
   padding: 0.2em;
+  max-width: 35%;
 
-  ul {
+  ul.legend-list-short {
 	margin: 0;
 
 	li {
@@ -746,6 +747,20 @@ article.node-teaser .node-content ul {
 	  }
 	}
   }
+  ul.legend-list-long {
+	margin: 0;
+
+	> li {
+	  list-style-type: none;
+
+	 >  ul {
+		> li {
+		  margin-left: 1em;
+		}
+	  }
+	}
+  }
+
 }
 
 /*****************************************************************************/
