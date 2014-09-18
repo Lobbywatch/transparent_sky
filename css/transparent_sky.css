@@ -111,7 +111,7 @@ ul.category-list li, ul.category-lobby-group-list li { list-style-image: url("..
 .sidebar .block h2 { text-transform: uppercase; }
 .sidebar .block ul.menu { margin: 0; }
 
-.sidebar .block:first-child { /*margin-top: 0em;*/ border-top: none; padding-top: 0em; }
+.sidebar .block:first-child { /*margin-top: 0em;*/ border-top: none; padding-top: 0em; /* For wemakeit widget*/ margin-top: 0; }
 
 .sidebar #block-system-navigation { margin-top: 1.25em; /*border-top: solid 0.3em black;*/ padding-top: 0.7em; }
 
@@ -271,6 +271,9 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 .legend ul.legend-list-long { margin: 0; }
 .legend ul.legend-list-long > li { list-style-type: none; }
 .legend ul.legend-list-long > li > ul > li { margin-left: 1em; }
+
+#block-block-11 .block-inner { margin-left: 0; margin-right: 0; }
+#block-block-11 .block-inner iframe { max-width: 100%; }
 
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */

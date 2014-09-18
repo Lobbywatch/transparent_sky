@@ -391,6 +391,9 @@ ul.category-lobby-group-list li {
   /*margin-top: 0em;*/
   border-top: none;
   padding-top: 0em;
+
+  /* For wemakeit widget*/
+  margin-top: 0;
 }
 
 .sidebar #block-system-navigation {
@@ -761,6 +764,17 @@ article.node-teaser .node-content ul {
 	}
   }
 
+}
+
+#block-block-11 {
+  .block-inner {
+	margin-left: 0;
+	margin-right: 0;
+
+	iframe {
+	  max-width: 100%;
+	}
+  }
 }
 
 /*****************************************************************************/
