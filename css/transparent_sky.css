@@ -272,6 +272,8 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 .legend ul.legend-list-long > li { list-style-type: none; }
 .legend ul.legend-list-long > li > ul > li { margin-left: 1em; }
 
+#block-block-11.floating-block-active { z-index: 7; /*padding-top: 1em;
+padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; background-color: #C0D9EC; border: medium none; }
 #block-block-11 .block-inner { margin-left: 0; margin-right: 0; }
 #block-block-11 .block-inner iframe { max-width: 100%; }
 
