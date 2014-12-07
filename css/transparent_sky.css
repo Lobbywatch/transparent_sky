@@ -279,6 +279,8 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
 #block-block-11 .block-inner { margin-left: 0; margin-right: 0; }
 #block-block-11 .block-inner iframe { max-width: 100%; }
 
+#button-legend-close { float: right; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width: 768px) { article.article-type-quote, article.node-quote { width: 95%; }
