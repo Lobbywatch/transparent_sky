@@ -657,8 +657,8 @@ article.node-teaser .node-content ul {
   clear: both;
 }
 
-.lobbywatch .record-unpublished,
 .lobbywatch .unpublished,
+.lobbywatch .record-unpublished,
 .lobbywatch .unpublished-data,
 .unpublished-data,
 .unreleased {
@@ -668,6 +668,10 @@ article.node-teaser .node-content ul {
 
 .admin {
   background-color: #FFE0E0;
+}
+
+.lobbywatch .advanced {
+  background-color: #fbffbc;
 }
 
 .parlam-inactive {
