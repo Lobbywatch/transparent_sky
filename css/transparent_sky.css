@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/** Transparent Sky transparent_sky.css  Use this file to add your custom styles.  Run "compass watch" in the root directory of the theme or "compass watch <path>"  */
+/** Transparent Sky transparent_sky.css  Use this file to add your custom styles.  Run "compass watch" in the root directory of the theme or "compass2.0 watch <path>" "compass2.0 compile <path>"  */
 /* Style menu in header, adapted from navigation.css */
 .region-header .menu { clear: both; margin: 0; }
 
@@ -277,6 +277,8 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 .legend ul.legend-list-long > li > ul > li { margin-left: 1em; }
 
 .lobbywatch p.message { margin-top: 3em; margin-bottom: 3em; }
+
+.lobbywatch table ul, .lobbywatch table ol { margin: 0 0 0 1em; }
 
 #block-locale-language .contextual-links-wrapper { right: -15px; }
 

@@ -4,7 +4,8 @@
  * Use this file to add your custom styles.
  *
  * Run "compass watch" in the root directory of the theme or
- * "compass watch <path>"
+ * "compass2.0 watch <path>"
+ * "compass2.0 compile <path>"
  *
  */
 
@@ -778,6 +779,12 @@ article.node-teaser .node-content ul {
   p.message {
 	margin-top: 3em;
 	margin-bottom: 3em;
+  }
+}
+
+.lobbywatch table {
+  ul, ol {
+	margin: 0 0 0 1em;
   }
 }
 
