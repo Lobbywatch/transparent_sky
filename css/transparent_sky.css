@@ -276,7 +276,7 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 .legend ul.legend-list-long > li { list-style-type: none; }
 .legend ul.legend-list-long > li > ul > li { margin-left: 1em; }
 
-.lobbywatch p.message { margin-top: 3em; margin-bottom: 3em; }
+.lobbywatch .message { margin-top: 3em; margin-bottom: 3em; }
 
 .lobbywatch table ul, .lobbywatch table ol { margin: 0 0 0 1em; }
 
