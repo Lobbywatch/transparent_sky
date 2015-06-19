@@ -243,6 +243,9 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 
 .lobbywatch .unpublished, .lobbywatch .record-unpublished, .lobbywatch .unpublished-data, .unpublished-data, .unreleased { background-color: #FFF4F4; }
 
+.view-parlamentarier-liste .unreleased { color: grey; background-color: white; }
+.view-parlamentarier-liste .unreleased a, .view-parlamentarier-liste .unreleased a:hover, .view-parlamentarier-liste .unreleased a:focus, .view-parlamentarier-liste .unreleased a:active, .view-parlamentarier-liste .unreleased a:visited { color: grey; }
+
 .admin { background-color: #FFE0E0; }
 
 .lobbywatch .advanced { background-color: #fbffbc; }

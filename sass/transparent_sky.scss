@@ -662,9 +662,22 @@ article.node-teaser .node-content ul {
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished-data,
 .unpublished-data,
-.unreleased {
+.unreleased
+{
   background-color: #FFF4F4;
+}
 
+.view-parlamentarier-liste {
+  .unreleased {
+	color: grey;
+	background-color: white;
+  }
+  
+  .unreleased {
+	a, a:hover, a:focus, a:active, a:visited {
+	  color: grey;
+	}
+  }
 }
 
 .admin {
