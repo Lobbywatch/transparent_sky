@@ -672,7 +672,7 @@ article.node-teaser .node-content ul {
 	color: grey;
 	background-color: white;
   }
-  
+
   .unreleased {
 	a, a:hover, a:focus, a:active, a:visited {
 	  color: grey;
@@ -832,6 +832,31 @@ article.node-teaser .node-content ul {
 
 #button-legend-close {
   float: right;
+}
+
+.parlamentarier-erfasst {
+
+  body {
+	font: 10px sans-serif;
+  }
+
+  .axis path,
+  .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+  }
+
+  .x.axis path {
+	display: none;
+  }
+
+  .line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+  }
+  
 }
 
 /*****************************************************************************/

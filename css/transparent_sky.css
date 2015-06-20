@@ -292,6 +292,11 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
 
 #button-legend-close { float: right; }
 
+.parlamentarier-erfasst body { font: 10px sans-serif; }
+.parlamentarier-erfasst .axis path, .parlamentarier-erfasst .axis line { fill: none; stroke: #000; shape-rendering: crispEdges; }
+.parlamentarier-erfasst .x.axis path { display: none; }
+.parlamentarier-erfasst .line { fill: none; stroke: steelblue; stroke-width: 1.5px; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width: 768px) { article.article-type-quote, article.node-quote { width: 95%; }
