@@ -241,10 +241,10 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 
 #block-quicktabs-suche-tabs .views-submit-button { clear: both; }
 
-.lobbywatch .unpublished, .lobbywatch .record-unpublished, .lobbywatch .unpublished-data, .unpublished-data, .unreleased { background-color: #FFF4F4; }
+.lobbywatch .unpublished, .lobbywatch .record-unpublished, .lobbywatch .unpublished-data, .unpublished-data, .unreleased, .lobbywatch .tablesorter tbody .unpublished td, .lobbywatch .tablesorter-zebra tbody .unpublished td, .lobbywatch .header-sticky-enabled tbody .unpublished td { background-color: #FFF4F4; }
 
-.view-parlamentarier-liste .unreleased { color: grey; background-color: white; }
-.view-parlamentarier-liste .unreleased a, .view-parlamentarier-liste .unreleased a:hover, .view-parlamentarier-liste .unreleased a:focus, .view-parlamentarier-liste .unreleased a:active, .view-parlamentarier-liste .unreleased a:visited { color: grey; }
+.view-parlamentarier-liste .unreleased, .lobbywatch.zutrittsberechtigung-list .unreleased { color: grey; background-color: white; }
+.view-parlamentarier-liste .unreleased a, .view-parlamentarier-liste .unreleased a:hover, .view-parlamentarier-liste .unreleased a:focus, .view-parlamentarier-liste .unreleased a:active, .view-parlamentarier-liste .unreleased a:visited, .lobbywatch.zutrittsberechtigung-list .unreleased a, .lobbywatch.zutrittsberechtigung-list .unreleased a:hover, .lobbywatch.zutrittsberechtigung-list .unreleased a:focus, .lobbywatch.zutrittsberechtigung-list .unreleased a:active, .lobbywatch.zutrittsberechtigung-list .unreleased a:visited { color: grey; }
 
 .admin { background-color: #FFE0E0; }
 

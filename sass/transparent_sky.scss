@@ -662,12 +662,17 @@ article.node-teaser .node-content ul {
 .lobbywatch .record-unpublished,
 .lobbywatch .unpublished-data,
 .unpublished-data,
-.unreleased
+.unreleased,
+.lobbywatch .tablesorter tbody .unpublished td,
+.lobbywatch .tablesorter-zebra tbody .unpublished td,
+.lobbywatch .header-sticky-enabled tbody .unpublished td
 {
   background-color: #FFF4F4;
 }
 
-.view-parlamentarier-liste {
+.view-parlamentarier-liste,
+.lobbywatch.zutrittsberechtigung-list {
+
   .unreleased {
 	color: grey;
 	background-color: white;
