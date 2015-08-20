@@ -883,6 +883,10 @@ article.node-teaser .node-content ul {
 	float: none;
 	max-width: 100%;
 
+	a, a:visited {
+	  color: #2897d7;
+	}
+
 	.menu li {
 	  display: list-item;
 	}
