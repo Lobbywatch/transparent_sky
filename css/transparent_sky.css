@@ -299,7 +299,12 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
 
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
-@media only screen and (max-width: 768px) { article.article-type-quote, article.node-quote { width: 95%; }
+@media only screen and (max-width: 768px) { #logo { display: none; }
+  #site-name { font-size: 12vw !important; }
+  #header .region-header { float: none; max-width: 100%; }
+  #header .region-header .menu li { display: list-item; }
+  #header .region-header .region-inner > div { margin-bottom: 10px; }
+  article.article-type-quote, article.node-quote { width: 95%; }
   /** Menu bar for smartphones */
   /* Show the menu bar. Do not hide it.*/
   /* Floating_block: Do not stick subscribe block and navigation on smartphones. #block-block-1, #block-system-navigation */
