@@ -810,7 +810,8 @@ article.node-teaser .node-content ul {
   right: -15px;
 }
 
-#block-block-11 {
+/* Wemakeit widget */
+#block-block-11, #block-block-14 {
 	&.floating-block-active {
 	  z-index: 7;
 	  /*padding-top: 1em;

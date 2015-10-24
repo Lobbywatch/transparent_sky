@@ -285,10 +285,11 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 
 #block-locale-language .contextual-links-wrapper { right: -15px; }
 
-#block-block-11.floating-block-active { z-index: 7; /*padding-top: 1em;
+/* Wemakeit widget */
+#block-block-11.floating-block-active, #block-block-14.floating-block-active { z-index: 7; /*padding-top: 1em;
 padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; background-color: #C0D9EC; border: medium none; }
-#block-block-11 .block-inner { margin-left: 0; margin-right: 0; }
-#block-block-11 .block-inner iframe { max-width: 100%; }
+#block-block-11 .block-inner, #block-block-14 .block-inner { margin-left: 0; margin-right: 0; }
+#block-block-11 .block-inner iframe, #block-block-14 .block-inner iframe { max-width: 100%; }
 
 #button-legend-close { float: right; }
 
