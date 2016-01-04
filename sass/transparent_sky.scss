@@ -239,6 +239,69 @@ table.table-small,
   border-bottom: 1px double;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text,
+.text-center {
+  text-align: center;
+}
+
+/**
+ * Img
+ */
+.img-left,
+.image-left,
+.img-left-no-caption,
+.image-left-no-caption {
+  float: left;
+  clear: left; /* http://www.hiscript.com/CSS-Tutorial/CSS-Float/Floating-Multiple-Images.html */
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+  margin-left: 0em;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-right,
+.image-right,
+.img-right-no-caption,
+.image-right-no-caption {
+  float: right;
+  clear: right; /* http://www.hiscript.com/CSS-Tutorial/CSS-Float/Floating-Multiple-Images.html */
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0em;
+  margin-left: 0.5em;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-center,
+.image-center,
+.img-center-no-caption,
+.image-center-no-caption {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.video-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  /*height: auto;*/
+}
+
+
 /** Image caption from image_caption_filter */
 .caption {
   font-size: 88%;
@@ -379,11 +442,11 @@ ul.category-lobby-group-list li {
   padding-top: 0.7em;
 
   h2 {
-	text-transform:uppercase;
+    text-transform:uppercase;
   }
 
   ul.menu {
-	margin: 0;
+    margin: 0;
   }
 
 }
@@ -491,25 +554,25 @@ ul.category-lobby-group-list li {
 
   label,
   .block-title {
-	color: white;
+    color: white;
   }
 
   .description {
-	color: #EEE;
+    color: #EEE;
   }
 }
 
 #quicktabs-suche_tabs .quicktabs-style-sky {
   li > a {
-	border-radius: 6px 6px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
   }
 
   .form-item-result-type {
-	label,
-	.form-item label,
-	div {
-	  display: inline;
-	}
+    label,
+    .form-item label,
+    div {
+      display: inline;
+    }
   }
 
 }
@@ -523,16 +586,16 @@ ul.category-lobby-group-list li {
   #edit-submit,
   #edit-submit--2,
   [for="edit-search-field"] {
-	display: none;
+    display: none;
   }
 
   #autocomplete ul li {
-	font-size: 85%;
+    font-size: 85%;
   }
 
   .description {
-	display: none;
-	font-size: 85%;
+    display: none;
+    font-size: 85%;
   }
 
   /*fieldset { overflow:hidden }
@@ -541,18 +604,18 @@ ul.category-lobby-group-list li {
   input[type=radio], input.radio { float:left; clear:none; margin: 2px 0 0 2px; }*/
 
   .form-item-result-type {
-	  display: none;
+      display: none;
   }
 
 }
 
 #search-form {
   .form-item-result-type {
-	label,
-	.form-item label,
-	div {
-	  display: inline;
-	}
+    label,
+    .form-item label,
+    div {
+      display: inline;
+    }
   }
 }
 
@@ -564,7 +627,7 @@ article .submitted {
   color: #888;
 
   a, a:visited, a:link, a:hover {
-	color: #888;
+    color: #888;
   }
 
 }
@@ -574,7 +637,7 @@ article .submitted {
   margin-right: 0.7em;
 
   &:last-of-type {
-	margin-right: 0;
+    margin-right: 0;
   }
 }
 
@@ -627,8 +690,8 @@ article.node-teaser .comment-add {
   float: left;
 
   img {
-	margin-right: 0.5em;
-	margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
   }
 
 }
@@ -674,14 +737,14 @@ article.node-teaser .node-content ul {
 .lobbywatch.zutrittsberechtigung-list {
 
   .unreleased {
-	color: grey;
-	background-color: white;
+    color: grey;
+    background-color: white;
   }
 
   .unreleased {
-	a, a:hover, a:focus, a:active, a:visited {
-	  color: grey;
-	}
+    a, a:hover, a:focus, a:active, a:visited {
+      color: grey;
+    }
   }
 }
 
@@ -712,26 +775,26 @@ article.node-teaser .node-content ul {
 .wirksamkeit-tief {
   color: #68B3C6;
   a:hover, a:focus, a:active {
-	color: #68B3C6;
-	/*font-weight: 700;*/
-	text-decoration: underline;
+    color: #68B3C6;
+    /*font-weight: 700;*/
+    text-decoration: underline;
  }
   a, a:visited {
-	color: #68B3C6;
-	/*text-decoration: underline;*/
+    color: #68B3C6;
+    /*text-decoration: underline;*/
   }
 }
 
 .wirksamkeit-mittel {
   color: #F49E00;
   a:hover, a:focus, a:active {
-	color: #F49E00;
-	/*font-weight: 700;*/
-	text-decoration: underline;
+    color: #F49E00;
+    /*font-weight: 700;*/
+    text-decoration: underline;
   }
   a, a:visited {
-	color: #F49E00;
-	/*text-decoration: underline;*/
+    color: #F49E00;
+    /*text-decoration: underline;*/
   }
 }
 
@@ -741,13 +804,13 @@ article.node-teaser .node-content ul {
 {
   color: #E20025;
   a:hover, a:focus, a:active {
-	color: #E20025;
-	/*font-weight: 700;*/
-	text-decoration: underline;
+    color: #E20025;
+    /*font-weight: 700;*/
+    text-decoration: underline;
   }
   a, a:visited {
-	color: #E20025;
-	/*text-decoration: underline;*/
+    color: #E20025;
+    /*text-decoration: underline;*/
   }
 }
 
@@ -763,46 +826,46 @@ article.node-teaser .node-content ul {
   max-width: 35%;
 
   ul.legend-list-short {
-	margin: 0;
+    margin: 0;
 
-	li {
-	  display: inline;
-	  list-style-type: none;
+    li {
+      display: inline;
+      list-style-type: none;
 
-	  &:after {
-		content: ", ";
-	  }
-	  &:last-child:after {
-		content: "";
-	  }
-	}
+      &:after {
+    	content: ", ";
+      }
+      &:last-child:after {
+    	content: "";
+      }
+    }
   }
   ul.legend-list-long {
-	margin: 0;
+    margin: 0;
 
-	> li {
-	  list-style-type: none;
+    > li {
+      list-style-type: none;
 
-	 >  ul {
-		> li {
-		  margin-left: 1em;
-		}
-	  }
-	}
+     >  ul {
+    	> li {
+    	  margin-left: 1em;
+    	}
+      }
+    }
   }
 
 }
 
 .lobbywatch {
   .message {
-	margin-top: 3em;
-	margin-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 }
 
 .lobbywatch table {
   ul, ol {
-	margin: 0 0 0 1em;
+    margin: 0 0 0 1em;
   }
 }
 
@@ -812,27 +875,27 @@ article.node-teaser .node-content ul {
 
 /* Wemakeit widget */
 #block-block-11, #block-block-14 {
-	&.floating-block-active {
-	  z-index: 7;
-	  /*padding-top: 1em;
-	  padding-bottom: 1em;*/
-	  padding-top: 0;
-	  padding-bottom: 0;
-	  margin-left: 0;
-	  margin-right: 0;
-	  margin-top: 0;
-	  margin-bottom: 0;
-	  background-color: #C0D9EC;
-	  border: medium none;
-	}
+    &.floating-block-active {
+      z-index: 7;
+      /*padding-top: 1em;
+      padding-bottom: 1em;*/
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      background-color: #C0D9EC;
+      border: medium none;
+    }
 
-	.block-inner {
-	margin-left: 0;
-	margin-right: 0;
+    .block-inner {
+    margin-left: 0;
+    margin-right: 0;
 
-	iframe {
-	  max-width: 100%;
-	}
+    iframe {
+      max-width: 100%;
+    }
   }
 }
 
@@ -843,24 +906,24 @@ article.node-teaser .node-content ul {
 .parlamentarier-erfasst {
 
   body {
-	font: 10px sans-serif;
+    font: 10px sans-serif;
   }
 
   .axis path,
   .axis line {
-	fill: none;
-	stroke: #000;
-	shape-rendering: crispEdges;
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
   }
 
   .x.axis path {
-	display: none;
+    display: none;
   }
 
   .line {
-	fill: none;
-	stroke: steelblue;
-	stroke-width: 1.5px;
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
   }
   
 }
@@ -873,28 +936,28 @@ article.node-teaser .node-content ul {
 @media only screen and (max-width:768px) {
 
   #logo {
-	display: none;
+    display: none;
   }
 
   #site-name {
-	font-size: 12vw!important;
+    font-size: 12vw!important;
   }
 
   #header .region-header {
-	float: none;
-	max-width: 100%;
+    float: none;
+    max-width: 100%;
 
-	a, a:visited {
-	  color: #2897d7;
-	}
+    a, a:visited {
+      color: #2897d7;
+    }
 
-	.menu li {
-	  display: list-item;
-	}
+    .menu li {
+      display: list-item;
+    }
 
-	.region-inner > div {
-	  margin-bottom: 10px;
-	}
+    .region-inner > div {
+      margin-bottom: 10px;
+    }
   }
 
   article.article-type-quote,
@@ -918,7 +981,7 @@ article.node-teaser .node-content ul {
   }
 
   #branding {
-	width: 100%;
+    width: 100%;
   }
 
 }
@@ -926,7 +989,7 @@ article.node-teaser .node-content ul {
 @media only screen and (max-width:1150px) {
 
   #branding {
-	width: 100%;
+    width: 100%;
   }
 
 }

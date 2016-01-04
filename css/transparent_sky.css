@@ -70,6 +70,19 @@ table.small, table.table-small, .table-small, .text-small { font-size: 85%; }
 
 .double-bottom { border-bottom: 1px double; }
 
+.center { margin-left: auto; margin-right: auto; }
+
+.center-text, .text-center { text-align: center; }
+
+/** Img */
+.img-left, .image-left, .img-left-no-caption, .image-left-no-caption { float: left; clear: left; /* http://www.hiscript.com/CSS-Tutorial/CSS-Float/Floating-Multiple-Images.html */ display: block; margin-top: 0.5em; margin-bottom: 0.5em; margin-right: 0.5em; margin-left: 0em; max-width: 100%; height: auto; }
+
+.img-right, .image-right, .img-right-no-caption, .image-right-no-caption { float: right; clear: right; /* http://www.hiscript.com/CSS-Tutorial/CSS-Float/Floating-Multiple-Images.html */ display: block; margin-top: 0.5em; margin-bottom: 0.5em; margin-right: 0em; margin-left: 0.5em; max-width: 100%; height: auto; }
+
+.img-center, .image-center, .img-center-no-caption, .image-center-no-caption { display: block; margin-left: auto; margin-right: auto; max-width: 100%; height: auto; }
+
+.video-center { display: block; margin-left: auto; margin-right: auto; max-width: 100%; /*height: auto;*/ }
+
 /** Image caption from image_caption_filter */
 .caption { font-size: 88%; }
 
