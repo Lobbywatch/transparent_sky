@@ -284,7 +284,7 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 
 .retirement { text-decoration: underline; }
 
-.legend { float: right; border-style: dotted; border-width: 1px; padding: 0.2em; max-width: 35%; }
+.legend { background-color: white; float: right; border-style: dotted; border-width: 1px; padding: 0.2em; max-width: 35%; }
 .legend ul.legend-list-short { margin: 0; }
 .legend ul.legend-list-short li { display: inline; list-style-type: none; }
 .legend ul.legend-list-short li:after { content: ", "; }
