@@ -1097,6 +1097,16 @@ div.tagclouds {
     margin-right: 0;*/
   }
 
+  .region-three-33-first .block-inner {
+    margin-left: 0;
+    margin-right: 0;
+
+    /*.block*/ .item-list ul.quicktabs-tabs.quicktabs-style-sky {
+      margin-left: 0;
+    }
+  }
+
+
 /*  #block-system-main-menu {
     float: left;
   }*/
@@ -1111,6 +1121,7 @@ div.tagclouds {
         float: right;
     }
   }
+
 }
 
 @media only screen and (max-width:1150px) {
