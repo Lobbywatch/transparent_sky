@@ -1097,14 +1097,33 @@ div.tagclouds {
     margin-right: 0;*/
   }
 
-  .region-three-33-first .block-inner {
+  /* Copied from page.css */
+  #main-content,
+  .block-inner,
+  .pane-inner,
+  .menu-wrapper,
+  .branding-elements,
+  .breadcrumb-wrapper,
+  .attribution,
+  .at-panel
+  .rounded-corner,
+  .block-panels-mini > .block-title,
+  div.messages,
+  #footer-sitemap  /* special */
+  {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .region-three-33-first .block-inner,
+  .region-three-33-second .block-inner {
     margin-left: 0;
     margin-right: 0;
 
     /*.block*/ .item-list ul.quicktabs-tabs.quicktabs-style-sky {
       margin-left: 0;
       li a {
-        padding: 0 4px;
+        padding: 0 3px;
       }
     }
   }

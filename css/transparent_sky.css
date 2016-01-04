@@ -342,9 +342,11 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
   /* Floating_block: Do not stick subscribe block and navigation on smartphones. #block-block-1, #block-system-navigation */
   .floating-fixed, .floating-block-active { position: relative !important; top: 0 !important; left: 0 !important; }
   #branding { width: 100%; max-width: 100%; margin-bottom: 1em; /*    padding-left: 20px; padding-right: 20px; margin-left: 20px; margin-right: 20px; padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;*/ }
-  .region-three-33-first .block-inner { margin-left: 0; margin-right: 0; /*.block*/ }
-  .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky { margin-left: 0; }
-  .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a { padding: 0 4px; }
+  /* Copied from page.css */
+  #main-content, .block-inner, .pane-inner, .menu-wrapper, .branding-elements, .breadcrumb-wrapper, .attribution, .at-panel .rounded-corner, .block-panels-mini > .block-title, div.messages, #footer-sitemap { margin-left: 5px; margin-right: 5px; }
+  .region-three-33-first .block-inner, .region-three-33-second .block-inner { margin-left: 0; margin-right: 0; /*.block*/ }
+  .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky, .region-three-33-second .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky { margin-left: 0; }
+  .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a, .region-three-33-second .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a { padding: 0 3px; }
   /*  #block-system-main-menu { float: left; }*/
   #block-locale-language { width: 6.5em; position: absolute; top: 0; right: 0; z-index: 10; /*     float: right; */ }
   #block-locale-language ul { float: right; } }
