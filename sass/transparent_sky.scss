@@ -1103,6 +1103,9 @@ div.tagclouds {
 
     /*.block*/ .item-list ul.quicktabs-tabs.quicktabs-style-sky {
       margin-left: 0;
+      li a {
+        padding: 0 4px;
+      }
     }
   }
 
