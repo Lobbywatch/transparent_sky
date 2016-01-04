@@ -847,14 +847,40 @@ article.node-teaser .node-content ul {
     }
   }
   ul.legend-list-long {
-    margin: 0;
+    /*margin: 0;*/
+    margin-left: 0;
+    list-style: none;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
 
+    > li:before{
+      content:'●';
+      display: block;
+      float: left;
+      width: 1.2em;
+      /*font-size:100px;*/
+    }
     > li {
       list-style-type: none;
 
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+
+
      >  ul {
+      text-indent: 0em;
+      margin-left: 0;
+      list-style-type: disc;
     	> li {
     	  margin-left: 1em;
+          color: black;
+
+          -webkit-hyphens: auto;
+          -moz-hyphens: auto;
+          -ms-hyphens: auto;
+          hyphens: auto;
     	}
       }
     }
@@ -884,6 +910,47 @@ article.node-teaser .node-content ul {
     margin: 0 0 0 1em;
   }
 }
+
+/**
+ * Automatic hyphenation for paragraphs.
+ * https://developer.mozilla.org/en/CSS/hyphens
+ */
+article p,
+article td,
+article th,
+article blockquote,
+article li,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+div.tagclouds {
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.hyph-none {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+.hyph-manual {
+  -webkit-hyphens: manual;
+  -moz-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+.hyph-auto {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 
 #block-locale-language .contextual-links-wrapper {
   right: -15px;
