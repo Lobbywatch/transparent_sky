@@ -327,7 +327,9 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width:768px) { #logo { display: none; }
-  #site-name { font-size: 12vw!important; }
+  /*#name-and-slogan*/
+  h1#site-name { font-size: 11vw!important; margin-left: 20px; margin-right: 20px; }
+  h2#site-slogan { margin-left: 20px; margin-right: 20px; }
   #header .region-header { float: none; max-width: 100%; }
   #header .region-header a, #header .region-header a:visited { color: #2897d7; }
   #header .region-header ul.menu { line-height: 2; padding-bottom: 0.5em; }
@@ -339,7 +341,7 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
   /* Show the menu bar. Do not hide it.*/
   /* Floating_block: Do not stick subscribe block and navigation on smartphones. #block-block-1, #block-system-navigation */
   .floating-fixed, .floating-block-active { position: relative !important; top: 0 !important; left: 0 !important; }
-  #branding { width: 100%; margin-bottom: 1em; margin-left: 20px; margin-right: 20px; }
+  #branding { width: 100%; max-width: 100%; margin-bottom: 1em; /*    padding-left: 20px; padding-right: 20px; margin-left: 20px; margin-right: 20px; padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;*/ }
   /*  #block-system-main-menu { float: left; }*/
   #block-locale-language { width: 6.5em; position: absolute; top: 0; right: 0; z-index: 10; /*     float: right; */ }
   #block-locale-language ul { float: right; } }
