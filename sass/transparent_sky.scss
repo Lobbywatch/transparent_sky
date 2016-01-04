@@ -856,6 +856,16 @@ article.node-teaser .node-content ul {
 
 }
 
+@media only screen and (max-width:600px) {
+
+  .legend.legend-open {
+    float: none;
+    max-width: 100%;
+  }
+
+}
+
+
 .lobbywatch {
   .message {
     margin-top: 3em;
