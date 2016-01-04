@@ -854,14 +854,16 @@ article.node-teaser .node-content ul {
     padding-left: 1.2em;
     text-indent: -1.2em;
 
-    > li:before{
-      content:'●';
-      display: block;
-      float: left;
-      width: 1.2em;
-      /*font-size:100px;*/
-    }
+
     > li {
+      &:before {
+        content:'●';
+        display: block;
+        float: left;
+        width: 1.2em;
+        /*font-size:100px;*/
+      }
+
       list-style-type: none;
 
       -webkit-hyphens: auto;
@@ -1034,9 +1036,18 @@ div.tagclouds {
     a, a:visited {
       color: #2897d7;
     }
+    ul.menu {
+      line-height: 2;
+      padding-bottom: 0.5em;
 
-    .menu li {
-      display: list-item;
+      li {
+        &:before {
+          content:' ';
+        }
+
+        /*display: list-item;*/
+        display: inline;
+      }
     }
 
     .region-inner > div {
@@ -1066,15 +1077,6 @@ div.tagclouds {
 
   #branding {
     width: 100%;
-  }
-
-}
-
-@media only screen and (min-width:600px) {
-  #header .region-header {
-    .menu li {
-      display: inline;
-    }
   }
 }
 

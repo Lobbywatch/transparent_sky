@@ -290,8 +290,8 @@ article.node-teaser .node-content ul { list-style-position: inside; }
 .legend ul.legend-list-short li:after { content: ", "; }
 .legend ul.legend-list-short li:last-child:after { content: ""; }
 .legend ul.legend-list-long { /*margin: 0;*/ margin-left: 0; list-style: none; padding-left: 1.2em; text-indent: -1.2em; }
-.legend ul.legend-list-long > li:before { content: '●'; display: block; float: left; width: 1.2em; /*font-size:100px;*/ }
 .legend ul.legend-list-long > li { list-style-type: none; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
+.legend ul.legend-list-long > li:before { content: '●'; display: block; float: left; width: 1.2em; /*font-size:100px;*/ }
 .legend ul.legend-list-long > li > ul { text-indent: 0em; margin-left: 0; list-style-type: disc; }
 .legend ul.legend-list-long > li > ul > li { margin-left: 1em; color: black; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
 
@@ -330,7 +330,9 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
   #site-name { font-size: 12vw!important; }
   #header .region-header { float: none; max-width: 100%; }
   #header .region-header a, #header .region-header a:visited { color: #2897d7; }
-  #header .region-header .menu li { display: list-item; }
+  #header .region-header ul.menu { line-height: 2; padding-bottom: 0.5em; }
+  #header .region-header ul.menu li { /*display: list-item;*/ display: inline; }
+  #header .region-header ul.menu li:before { content: ' '; }
   #header .region-header .region-inner > div { margin-bottom: 10px; }
   article.article-type-quote, article.node-quote { width: 95%; }
   /** Menu bar for smartphones */
@@ -338,5 +340,4 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
   /* Floating_block: Do not stick subscribe block and navigation on smartphones. #block-block-1, #block-system-navigation */
   .floating-fixed, .floating-block-active { position: relative !important; top: 0 !important; left: 0 !important; }
   #branding { width: 100%; } }
-@media only screen and (min-width:600px) { #header .region-header .menu li { display: inline; } }
 @media only screen and (max-width:1150px) { #branding { width: 100%; } }
