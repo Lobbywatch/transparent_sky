@@ -1014,6 +1014,13 @@ div.tagclouds {
   
 }
 
+a.elf-external.elf-icon.no-elf-icon,
+.no-elf-icon,
+.no-elf-icon a.elf-external.elf-icon {
+  background: none;
+  padding-right: 0;
+}
+
 /*****************************************************************************/
 /**
  * Responsivness

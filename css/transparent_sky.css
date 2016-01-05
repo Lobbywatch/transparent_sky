@@ -324,6 +324,8 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
 .parlamentarier-erfasst .x.axis path { display: none; }
 .parlamentarier-erfasst .line { fill: none; stroke: steelblue; stroke-width: 1.5px; }
 
+a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.elf-icon { background: none; padding-right: 0; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width:768px) { #logo { display: none; }
