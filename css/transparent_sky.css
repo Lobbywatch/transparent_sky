@@ -326,6 +326,8 @@ padding-bottom: 1em;*/ padding-top: 0; padding-bottom: 0; margin-left: 0; margin
 
 a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.elf-icon { background: none; padding-right: 0; }
 
+.lobbywatch-db-page #breadcrumb { display: none; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width:768px) { #logo { display: none; }
