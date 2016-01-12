@@ -350,6 +350,8 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
   .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky, .region-three-33-second .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky { margin-left: 0; }
   .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a, .region-three-33-second .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a { padding: 0 3px; }
   #block-lobbywatch-lobbywatch-search .block-inner { width: 92%; }
+  #site-slogan { display: none; }
+  body.front #site-slogan { display: block; }
   /*  #block-system-main-menu { float: left; }*/
   #block-locale-language { width: 6.5em; position: absolute; top: 0; right: 0; z-index: 10; /*     float: right; */ }
   #block-locale-language ul { float: right; } }
