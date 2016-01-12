@@ -1036,16 +1036,24 @@ a.elf-external.elf-icon.no-elf-icon,
     display: none;
   }
 
+  #name-and-slogan {
+    float: left;
+  }
+
   /*#name-and-slogan*/
   h1#site-name {
     font-size: 11vw!important;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   h2#site-slogan {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #page > header {
+    padding: 5px 0 0;
   }
 
   #header .region-header {

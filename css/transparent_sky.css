@@ -331,9 +331,11 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width:768px) { #logo { display: none; }
+  #name-and-slogan { float: left; }
   /*#name-and-slogan*/
-  h1#site-name { font-size: 11vw!important; margin-left: 20px; margin-right: 20px; }
-  h2#site-slogan { margin-left: 20px; margin-right: 20px; }
+  h1#site-name { font-size: 11vw!important; margin-left: 5px; margin-right: 5px; }
+  h2#site-slogan { margin-left: 5px; margin-right: 5px; }
+  #page > header { padding: 5px 0 0; }
   #header .region-header { float: none; max-width: 100%; }
   #header .region-header a, #header .region-header a:visited { color: #2897d7; }
   #header .region-header ul.menu { line-height: 2; padding-bottom: 0.5em; }
