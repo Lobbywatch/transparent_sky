@@ -1139,13 +1139,13 @@ a.elf-external.elf-icon.no-elf-icon,
     width: 92%;
   }
 
-  #site-slogan {
+  body.not-front #site-slogan {
     display: none;
   }
 
-  body.front #site-slogan {
+  /*body.front #site-slogan {
     display: block;
-  }
+  }*/
 
 /*  #block-system-main-menu {
     float: left;
