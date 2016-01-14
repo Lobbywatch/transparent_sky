@@ -1152,10 +1152,14 @@ a.elf-external.elf-icon.no-elf-icon,
   }
 
   /* Bundeshausbild */
-  #block-block-3 {
+  /*#block-block-3 {
     display: none;
-  }
+  }*/
 
+  .node ul.links li a .element-invisible,
+  .element-invisible {
+    white-space: normal;
+  }
 
   /*body.front #site-slogan {
     display: block;
