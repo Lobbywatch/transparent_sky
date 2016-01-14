@@ -1151,6 +1151,12 @@ a.elf-external.elf-icon.no-elf-icon,
     display: none;
   }
 
+  /* Bundeshausbild */
+  #block-block-3 {
+    display: none;
+  }
+
+
   /*body.front #site-slogan {
     display: block;
   }*/
@@ -1170,12 +1176,6 @@ a.elf-external.elf-icon.no-elf-icon,
     }
   }
 
-}
-
-@media only screen and (max-width:450px) {
-  #block-block-3 {
-    display: none;
-  }
 }
 
 @media only screen and (max-width:1150px) {

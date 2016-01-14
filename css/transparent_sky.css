@@ -354,9 +354,10 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
   .region-three-33-first .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a, .region-three-33-second .block-inner .item-list ul.quicktabs-tabs.quicktabs-style-sky li a { padding: 0 3px; }
   #block-lobbywatch-lobbywatch-search .block-inner { width: 92%; }
   body.not-front #site-slogan { display: none; }
+  /* Bundeshausbild */
+  #block-block-3 { display: none; }
   /*body.front #site-slogan { display: block; }*/
   /*  #block-system-main-menu { float: left; }*/
   #block-locale-language { width: 6.5em; position: absolute; top: 0; right: 0; z-index: 10; /*     float: right; */ }
   #block-locale-language ul { float: right; } }
-@media only screen and (max-width:450px) { #block-block-3 { display: none; } }
 @media only screen and (max-width:1150px) { #branding { width: 100%; } }
