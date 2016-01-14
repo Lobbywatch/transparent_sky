@@ -1172,6 +1172,12 @@ a.elf-external.elf-icon.no-elf-icon,
 
 }
 
+@media only screen and (max-width:450px) {
+  #block-block-3 {
+    display: none;
+  }
+}
+
 @media only screen and (max-width:1150px) {
 
   #branding {

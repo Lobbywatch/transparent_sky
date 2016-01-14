@@ -358,4 +358,5 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
   /*  #block-system-main-menu { float: left; }*/
   #block-locale-language { width: 6.5em; position: absolute; top: 0; right: 0; z-index: 10; /*     float: right; */ }
   #block-locale-language ul { float: right; } }
+@media only screen and (max-width:450px) { #block-block-3 { display: none; } }
 @media only screen and (max-width:1150px) { #branding { width: 100%; } }
