@@ -328,6 +328,9 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
 
 .lobbywatch-db-page #breadcrumb { display: none; }
 
+/* Fix iPhone weisser Randproblem */
+.node ul.links li a .element-invisible, .element-invisible { white-space: normal; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width:768px) { #logo { display: none; }
@@ -356,7 +359,6 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
   body.not-front #site-slogan { display: none; }
   /* Bundeshausbild */
   /*#block-block-3 { display: none; }*/
-  .node ul.links li a .element-invisible, .element-invisible { white-space: normal; }
   /*body.front #site-slogan { display: block; }*/
   /*  #block-system-main-menu { float: left; }*/
   #block-locale-language { width: 6.5em; position: absolute; top: 0; right: 0; z-index: 10; /*     float: right; */ }
