@@ -331,6 +331,8 @@ a.elf-external.elf-icon.no-elf-icon, .no-elf-icon, .no-elf-icon a.elf-external.e
 /* Fix iPhone weisser Randproblem */
 .node ul.links li a .element-invisible, .element-invisible { white-space: normal; }
 
+abbr, acronym { border-bottom: none; text-decoration-webkit: underline dotted; text-decoration: underline dotted; }
+
 /*****************************************************************************/
 /** Responsivness Keep it at the end in order to overwrite default values. */
 @media only screen and (max-width:768px) { #logo { display: none; }

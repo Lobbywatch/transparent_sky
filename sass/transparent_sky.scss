@@ -1025,11 +1025,17 @@ a.elf-external.elf-icon.no-elf-icon,
   display: none;
 }
 
-  /* Fix iPhone weisser Randproblem */
-  .node ul.links li a .element-invisible,
-  .element-invisible {
-    white-space: normal;
-  }
+/* Fix iPhone weisser Randproblem */
+.node ul.links li a .element-invisible,
+.element-invisible {
+  white-space: normal;
+}
+
+abbr, acronym {
+  border-bottom: none;
+  text-decoration-webkit: underline dotted;
+  text-decoration: underline dotted;
+}
 
 /*****************************************************************************/
 /**
