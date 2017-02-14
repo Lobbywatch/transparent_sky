@@ -73,6 +73,14 @@
 
 ;----------// Regions
 
+  ; Hidden regions for new website
+  regions[rooster_home]             = Rooster homepage
+  regions[rooster_parliamentarians] = Rooster after parliamentarian list
+  regions[rooster_lobbygroups]      = Rooster after lobbygroup list
+  regions[rooster_guests]           = Rooster after guest list
+  regions[rooster_noresults]        = Rooster zero results
+
+  ; Drupal website
   regions[sidebar_first]     = Sidebar first
   regions[sidebar_second]    = Sidebar second
   regions[top_menu]          = Top menu bar
